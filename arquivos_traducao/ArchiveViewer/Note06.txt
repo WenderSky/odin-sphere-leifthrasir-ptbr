@@ -1,0 +1,370 @@
+//@TITLE( 「タマゴと鶏」 )
+
+@TITLE( "The Chicken and the Egg" )
+
+
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束＋注釈なんだが…？
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_a,	0,0
+
+)	//汎用枠2
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_212,	0,0
+
+)	//雛と種
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@b@c(158,78,43)鶏@/c@/bの@b@c(158,78,43)タマゴ@/c@/bを手にしたら、新鮮なうちに
+
+//料理に使うのも結構だが、
+
+//実は@b@c(158,78,43)タマゴ@/c@/bにはもっと賢い使い道がある
+
+//
+
+//@b@c(158,78,43)タマゴ@/c@/bを孵し@b@c(158,78,43)ヒヨコ@/c@/bを育てれば、@b@c(158,78,43)タマゴ@/c@/b
+
+//を産ませて増やすことが可能なのだ
+
+//
+
+//
+
+//
+
+//
+
+//
+
+
+
+@TEXT(
+
+While you can certainly cook a fresh
+
+@b@c(158,78,43)chicken@/c@/b @b@c(158,78,43)egg@/c@/b on its own, there's a
+
+smarter use for them.
+
+
+
+You can incubate an egg and raise the
+
+@b@c(158,78,43)chick@/c@/b to have it lay even more eggs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_a,	0,0
+
+)	//汎用枠2
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_205,	0,0
+
+)	//雛と種
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//まず、地面の上に@b@c(158,78,43)タマゴ@/c@/bを置く
+
+//生命力たくましい@b@c(158,78,43)鶏@/c@/bの@b@c(158,78,43)タマゴ@/c@/bは、それ
+
+//だけで暖められなくとも@b@c(158,78,43)ヒヨコ@/c@/bへと孵る
+
+//
+
+//次に、エサとなる@b@c(158,78,43)種@/c@/bを目の前に置く
+
+//@b@c(158,78,43)ヒヨコ@/c@/bは喜んで@b@c(158,78,43)種@/c@/bをついばみ、数個食べ
+
+//きる頃には成長し、@b@c(158,78,43)鶏@/c@/bへと育つだろう
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//そして、@b@c(158,78,43)鶏@/c@/bに@b@c(158,78,43)種@/c@/bを食べさせると、つい
+
+//には@b@c(158,78,43)タマゴ@/c@/bを産み落とす
+
+//
+
+//
+
+//
+
+//
+
+//
+
+@TEXT(
+
+First, place the egg on the ground.
+
+Chicken eggs need no warmth to
+
+hatch into a chick.
+
+
+
+Next, drop @b@c(158,78,43)seeds@/c@/b in front of them.
+
+The chick will eat them, and after
+
+enough food, it will mature into a
+
+chicken.
+
+
+
+
+
+
+
+
+
+
+
+
+
+@b@c(158,78,43)Well-fed@/c@/b chickens @b@c(158,78,43)lay more@/c@/b eggs.
+
+
+
+
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ３」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_a,	0,0
+
+)	//汎用枠2
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_206,	0,-20
+
+)	//鶏と卵
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//十分な数の@b@c(158,78,43)タマゴ@/c@/bを産ませたら、
+
+//@b@c(158,78,43)鶏@/c@/bはしとめて@b@c(158,78,43)鶏肉@/c@/bにしてもよい
+
+//
+
+//この方法をくり返せば、少ない元手で
+
+//多くの@b@c(158,78,43)タマゴ@/c@/bと@b@c(158,78,43)鶏肉@/c@/bを収穫できるだろう
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//ただし@b@c(158,78,43)鶏@/c@/bや@b@c(158,78,43)ヒヨコ@/c@/bには目を光らせること
+
+//野放しにすると、彼らは地面に置いた@b@c(158,78,43)種@/c@/b
+
+//をすべて平らげてしまうからだ
+
+//
+
+//
+
+@TEXT(
+
+If you have no further need for eggs,
+
+you can slay the chicken for its @b@c(158,78,43)meat@/c@/b
+
+instead.
+
+This method yields large amounts
+
+of food with minimal investment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Keep an eye on the chickens and
+
+chicks, though. They devour
+
+any seeds left on the ground.
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+

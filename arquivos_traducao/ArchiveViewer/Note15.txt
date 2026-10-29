@@ -1,0 +1,446 @@
+//@TITLE( 「王女アリエルの運命」 )
+
+@TITLE( "The Fate of Princess Ariel" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00m.ftx, 
+
+	BOOK_01	//本
+
+	)
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//「ページ1」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00m.ftx,	OBJ_12B,	0,0
+
+)	//スポットライト（青）
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00m.ftx,	CUT_B01_000,	0,0
+
+)	//挿絵
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00m.ftx,	CUT_B01_110,	0,0
+
+)	//挿絵
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+@TEXT(
+
+
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+@FRAME(1)	//2つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//父親の知れぬ子を産んだことが王
+
+//の耳に入ると、王女@b@c(158,78,43)アリエル@/c@/b様と
+
+//@b@c(158,78,43)双子の御子@/c@/bらは、王命により
+
+//@b@c(158,78,43)バレンタイン@/c@/bの離宮に幽閉され、
+
+//侍女の私もお供する事となった
+
+//
+
+//しかし、政争渦巻く王宮を離れた
+
+//暮らしは穏やかで、監視の目こそ
+
+//あれど、幼子を抱く母親にとって
+
+//むしろ望ましいものであった
+
+//
+
+@TEXT(
+
+When the king learned that
+
+Princess @b@c(158,78,43)Ariel@/c@/b gave birth to
+
+fatherless @b@c(158,78,43)twins@/c@/b, she and
+
+they were locked away at the
+
+@b@c(158,78,43)Valentine@/c@/b villa, along with
+
+me, her maid.
+
+
+
+Yet life away from the gilt
+
+and politic of the castle
+
+was peaceful. Despite the
+
+guards, it was the perfect
+
+place to raise a family.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ2」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00m.ftx,	OBJ_12B,	0,0
+
+)	//スポットライト（青）
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00m.ftx, 
+
+	BOOK_01	// 注釈からこのページに戻るときに情報が必要なため仕込みます
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00m.ftx,	CUT_B01_112,	0,0
+
+)	//挿絵
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//だが、離宮での平穏な暮らしも
+
+//長くは続かなかった
+
+//
+
+//密告により、@b@c(158,78,43)双子@/c@/bの父の名を知り
+
+//激怒した王が、至急、@b@c(158,78,43)王女@/c@/b様を連
+
+//れ戻そうと使者をよこされたのだ
+
+//
+
+//城に戻れば、死にも等しい裁きが
+
+//下されるだろう……だが王女様は
+
+//毅然とした態度を崩されなかった
+
+//
+
+@TEXT(
+
+The peace did not last.
+
+
+
+Enraged over learning the
+
+identity of the twins' father,
+
+the king sent an envoy to
+
+bring the @b@c(158,78,43)princess@/c@/b back.
+
+
+
+Her return could only mean
+
+her execution... Even then,
+
+the princess stood firm.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+@FRAME(1)	//2つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//王女様は、このような未来を全て
+
+//@b@c(158,78,43)予知@/c@/bなさっていたという
+
+//
+
+//しかし、決して悲観せずに運命を
+
+//受け入れ、今を懸命に生きること
+
+//を大切にしてこられたのだ
+
+//
+
+//王女様は御子らを私に託し、嘆く
+
+//私たちに慰めの言葉を残すと、
+
+//自ら迎えの馬車に乗り込まれた
+
+//
+
+//
+
+@TEXT(
+
+@s(0.95,0.96)She said she had @b@c(158,78,43)prophesied@/c@/b this
+
+future.
+
+
+
+However, she did not despair,
+
+but accepted her fate, and
+
+cherished the time she had
+
+remaining.
+
+
+
+She entrusted her children to
+
+me, and after her last words
+
+of comfort, she stepped into
+
+the awaiting carriage.@/s
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00m.ftx,	OBJ_12B,	0,0
+
+)	//スポットライト（青）
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00m.ftx, 
+
+	ANNOTATION_06	//本+注釈
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00m.ftx,	CUT_B01_112,	0,0
+
+)	//挿絵
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_06 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_06_END );//前ページへ
+
+
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+@KEEPFRAME(1)
+
+
+
+
+
+@FRAME(2)	//3つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//魔法大国@b@c(158,78,43)バレンタイン@/c@/bの王女
+
+//@b@c(158,78,43)アリエル@/c@/bに仕えた侍女が記したと
+
+//される手記の一部だ
+
+//王女は未来を予知する力を持つ
+
+//才媛と知られ、王や多くの民から
+
+//愛されたが、突如として反逆の
+
+//罪で処刑されたという
+
+//
+
+@TEXT(
+
+Part of a memo by the maid
+
+of Princess Ariel of Valentine.
+
+She was said to see the future,
+
+and was well-loved by her
+
+people, but was executed as
+
+a rebel.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+

@@ -1,0 +1,562 @@
+//@TITLE( 「妖精女王の功績」 )
+
+@TITLE( "The Fairy Queen's Triumph" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00k.ftx, 
+
+	BOOK_01	//本
+
+	)
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00k.ftx,	CUT_B01_112,	0,0
+
+)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00k.ftx,	CUT_B01_000,	0,0
+
+)	//挿絵
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+@TEXT(
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//かつて@b@c(158,78,43)妖精の森@/c@/bは、様々な種族が
+
+//長閑に暮らす静謐な楽園であった
+
+//
+
+//これを国家としてまとめあげた
+
+//初代妖精女王@b@c(158,78,43)エルファリア@/c@/b陛下の
+
+//偉大なる功績は、未来永劫語り
+
+//継がれることであろう
+
+//
+
+//しかし、その偉業も多くの苦難を
+
+//乗り越えた末に成し得たものだ
+
+//
+
+@TEXT(
+
+@s(0.94,0.95)The @b@c(158,78,43)Forest of Fairies@/c@/b was once a
+
+peaceful place where many races
+
+lived in tranquility. Queen
+
+@b@c(158,78,43)Elfaria@/c@/b's greatest achievement
+
+was to unite everyone as a
+
+nation. Her legend will be passed
+
+down for eons to come.
+
+
+
+But that great deed did not
+
+come easily.@/s
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00k.ftx,	CUT_B01_112,	0,0
+
+)	//上下枠
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//特に@b@c(158,78,43)女王@/c@/bを悩ませたのは、
+
+//@b@c(158,78,43)妖精族@/c@/bと@b@c(158,78,43)ドワーフ族@/c@/bの不和である
+
+//
+
+//国の発展にはドワーフの鍛冶の腕
+
+//が要ると、女王は歩み寄ったが、
+
+//妖精の反発に遭い交渉は難航した
+
+//
+
+//そして魔法の大釜@b@c(158,78,43)コルドロン@/c@/bを
+
+//得ると、運用をめぐり双方の意見
+
+//が割れ、軋轢はより深まった
+
+//
+
+@TEXT(
+
+@s(0.94,0.95)The queen's greatest obstacle
+
+was the tension between the
+
+@b@c(158,78,43)Fairies@/c@/b and the @b@c(158,78,43)Dwarves@/c@/b.
+
+
+
+Believing the Dwarves' smithing
+
+skills invaluable, the queen tried
+
+compromise, but the Fairies
+
+bristled at their diplomacy,
+
+slowing talks. And when they
+
+acquired the magic @b@c(158,78,43)Cauldron@/c@/b,
+
+opinions clashed further...@/s
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//ドワーフ族は、先進文明の恩恵
+
+//たる大釜を積極的に活用し、
+
+//国の発展の礎とすべきと主張し、
+
+//
+
+//それに対し妖精族は、
+
+//@b@c(158,78,43)バレンタイン@/c@/bの滅亡にも関わる、
+
+//危険な大釜の利用には慎重を期す
+
+//べきと反対したのだ
+
+//
+
+//この諍いがやがて戦へと発展した
+
+@TEXT(
+
+@s(0.93,0.95)The Dwarves wanted to use the
+
+Cauldron's supreme power to its
+
+fullest, making it a foundation of
+
+the nation's might... And the
+
+Fairies opposed overusing the
+
+dangerous Cauldron, remembering
+
+its role in the destruction of
+
+@b@c(158,78,43)Valentine@/c@/b.
+
+
+
+Tensions soon flared into war.@/s
+
+
+
+)	//------------------------------------------------------------------------
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ3」====================================================================
+
+@PAGE_BEGIN
+
+
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00k.ftx,	CUT_B01_112,	0,0
+
+)	//上下枠
+
+
+
+
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00k.ftx, 
+
+	BOOK_01	// 注釈からこのページに戻るときに情報が必要なため仕込みます　野間
+
+	)
+
+
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//戦の最中、劣勢となった@b@c(158,78,43)ドワーフ@/c@/b
+
+//の一部が魔力を得るべく@b@c(158,78,43)大釜@/c@/bを
+
+//操ると、魔力の洪水が森を襲った
+
+//
+
+//この事態に、@b@c(158,78,43)女王@/c@/bは敵味方なく
+
+//負傷者を救うよう全軍に指示した
+
+//
+
+//そして、女王自らが指環を用いて
+
+//迅速に大釜を鎮めたことで、被害
+
+//は森の一部にとどめられたのだ
+
+@TEXT(
+
+@s(0.94,0.95)In the heat of battle, the losing
+
+Dwarves tried to control the
+
+Cauldron, and caused a magical
+
+flood that swept through the
+
+forest. The @b@c(158,78,43)queen@/c@/b ordered all
+
+soldiers to rescue everyone,
+
+friend or foe, and stood against
+
+the Cauldron herself, stifling its
+
+onslaught and preventing
+
+further damage to the land.@/s
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//争いが終り、厳罰を待つドワーフ
+
+//らに女王は寛大な処置をとった
+
+//罪を問わず、臣民の権利を与え、
+
+//@b@c(158,78,43)妖精族@/c@/bとの融和を促したのだ
+
+//
+
+//ドワーフらはこれに感銘を受け、
+
+//妖精女王に忠誠を誓った
+
+//
+
+//こうして、妖精族とドワーフ族の
+
+//和睦は成し遂げられたのだ
+
+//
+
+@TEXT(
+
+@s(0.94,0.95)The war was over. The Dwarves
+
+awaited their punishment. But
+
+the queen spoke instead of
+
+forgiveness. She gave them
+
+citizenship, and encouraged them
+
+to make peace with the Fairies.
+
+Touched by her clemency, the
+
+Dwarves pledged allegiance to
+
+the queen.
+
+
+
+And thus did the races of
+
+Dwarf and Fairy reconcile.@/s
+
+)	//------------------------------------------------------------------------
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00k.ftx, 
+
+	ANNOTATION_06	//本+注釈
+
+	)
+
+
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00k.ftx,	CUT_B01_112,	0,0
+
+)	//上下枠
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_06 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_06_END );//前ページへ
+
+
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(1)
+
+
+
+
+
+@FRAME(2)	//3つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//妖精女王エルファリアの側近
+
+//@b@c(158,78,43)マシュウ@/c@/bが記した、女王の功績を
+
+//称える歴史書の一部だ
+
+//種族融和を祝って@b@c(158,78,43)鍛冶師ブロム@/c@/b
+
+//から女王に贈られた魔法の@b@c(158,78,43)石弓@/c@/bは
+
+//以後、国を守る女王の象徴と
+
+//された
+
+@TEXT(
+
+Part of a historical record
+
+of Queen Elfaria by
+
+@b@c(158,78,43)Matthew@/c@/b, her advisor. The
+
+magic @b@c(158,78,43)arbalest@/c@/b that the
+
+@b@c(158,78,43)blacksmith Brom@/c@/b presented
+
+to the queen became a
+
+symbol of her protection.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+

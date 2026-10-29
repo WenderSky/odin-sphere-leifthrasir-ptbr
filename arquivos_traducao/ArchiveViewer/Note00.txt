@@ -1,0 +1,346 @@
+// タイトルの指定
+
+//@TITLE( 「フォゾンとは何か」 )
+
+@TITLE( "What are Phozons?" )
+
+
+
+// MONEのワク（開く・めくるなどのアニメに対応するもの）
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	BOOK_01		//本
+
+//	BOOK_02		//本＋注釈
+
+//	PAPER_01	//紙
+
+//	PAPER_02	//紙束
+
+//	PAPER_03	//便せん
+
+//	PAPER_04	//便せん束
+
+//	VELLUM_01	//羊皮紙
+
+//	VELLUM_02	//羊皮紙束
+
+	)
+
+
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+// ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+
+
+
+//  @c( r, g, b ) 〜 @/c         ： 文字の色を変化させる 0-255指定
+
+//
+
+//  @s( scale ) 〜 @/s 
+
+//  @s( scaleX, scaleY ) 〜 @/s  ： 文字のスケールを拡大（小数指定）
+
+//
+
+//  @i 〜 @/i                    ： 文字を傾ける（イタリック体…？斜体というより回転してる）
+
+//  @i( angle )  〜 @/i             2015-04-09 ohnishi 斜体になるようになおしました
+
+//                                             angleに角度を指定可能（デフォルトは１５度）
+
+//
+
+//  @b 〜@/b                     : ボールド（強調表示）
+
+//  @b( dot ) 〜 @/b             : dotで何ドットずらして重ねるか指定可能にした
+
+
+
+//  @x( n ) 〜 @/x               : 文字のＸ間隔を指定
+
+//  @y( n ) 〜 @/y               : 文字のＹ間隔を指定
+
+
+
+// ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+
+
+
+//1P================================================================================
+
+// ページ開始指定 PAGE_BEGINのたびに勝手に１、２とページが加算されます
+
+// 見開きでも「１ページ」なので注意
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_101,	0,0
+
+)	//汎用枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_115,	-340,-65
+
+)	//挿絵「フォゾン」
+
+
+
+//----------------------------左ページ
+
+// MONEの中の何番目のコリジョンに書くかの指定 
+
+// 左ページ：０ / 右ページ：１ / 注釈：２ など
+
+@FRAME(0)
+
+// 文章本体
+
+//２３４５６７８９０１２３４５
+
+//
+
+//戦場で力尽き、倒れた兵士の体
+
+//から小さな光が生じるのを見た
+
+//ことがあろう
+
+//
+
+//それは、生命の力を宿す光、
+
+//@b@c(158,78,43)フォゾン@/c@/bと呼ばれている
+
+//
+
+//
+
+@TEXT(
+
+
+
+Have you seen motes of
+
+light that appear from the
+
+bodies of the fallen?
+
+
+
+Those motes are known as
+
+@b@c(158,78,43)Phozons@/c@/b, lights that hold
+
+the power of life.
+
+
+
+
+
+)
+
+
+
+//----------------------------右ページ
+
+@FRAME(1)
+
+// 文章本体
+
+//２３４５６７８９０１２３４５
+
+//
+
+//
+
+//@b@c(158,78,43)フォゾン@/c@/bは、命有る者の死から
+
+//生じて、新たな命を育むために
+
+//大地へと還る役目をもっている
+
+//
+
+//人や動物がこの大地に生を受け、
+
+//あるいは草木が芽吹き実をつける
+
+//ための糧となるのだ
+
+//
+
+//
+
+@TEXT(
+
+
+
+
+
+Phozons arise from the
+
+deaths of living beings, and
+
+return to the earth to
+
+foster new life.
+
+
+
+Man and beast are given
+
+life from this earth, and
+
+plants bud and grow fruit.
+
+
+
+
+
+)
+
+
+
+//2P ================================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_101,	0,0
+
+)	//汎用枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_113,	-30,-50
+
+)	//挿絵「フォゾン蝶」
+
+
+
+//----------------------------左ページ
+
+@FRAME(0)
+
+//２３４５６７８９０１２３４５
+
+//
+
+//
+
+//一方、@b@c(158,78,43)フォゾン@/c@/bは@b@c(158,78,43)魔素@/c@/bとも呼ばれ
+
+//魔法使いにとっては魔力の源と
+
+//して欠かせない物とされている
+
+//
+
+//しかし、@b@c(158,78,43)フォゾン@/c@/bを集めるのは
+
+//大地に還るはずだった死者の生命
+
+//を預かるということ
+
+//
+
+@TEXT(
+
+
+
+Phozons are also called
+
+@b@c(158,78,43)magic elements@/c@/b, and are an
+
+indispensable source of
+
+magic for sorcerers.
+
+
+
+However, in order to collect
+
+Phozons, one must steal
+
+the life force of the dead,
+
+originally meant to return
+
+to the earth.
+
+
+
+)
+
+
+
+//----------------------------右ページ
+
+@FRAME(1)
+
+//２３４５６７８９０１２３４５
+
+//
+
+//@b@c(158,78,43)フォゾン@/c@/bを扱う者は、決して
+
+//その重みを忘れてはならない
+
+//
+
+@TEXT(
+
+
+
+You must never forget the
+
+weight of this act.
+
+
+
+)
+
+
+
+
+

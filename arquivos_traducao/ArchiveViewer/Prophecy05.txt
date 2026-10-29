@@ -1,0 +1,1798 @@
+//@TITLE( 「クロイツ覚え書き」 )
+
+@TITLE( "Krois's Memo" )
+
+//(ベルベット終章ボス戦後ドラマにて入手)
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	BOOK_01	//本
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(0)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(16)   // 並ぶ文字の数
+
+@FONT_NUM_Y(14)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//@c( 110, 80, 50 )叙事詩　詩篇２ @/c
+
+//@c( 130, 38, 92 )@i「爛々たる６つ眼の獣が駆ける 
+
+//　救いの御手の導き手
+
+//　苦痛を払うるは我が息子」@/c@/i
+
+//
+
+//
+
+//6つ目の獣とは間違いなく
+
+//３つ首のダーコーヴァを指す
+
+//この部分は古代タイタニア王の
+
+//予言を元にまとめられた
+
+@TEXT(
+
+
+
+@c( 110, 80, 50 )Saga Psalm 2@/c
+
+@c( 130, 38, 92 )@i"A FIERY six-eyed beast speeds
+
+the guiding hand of salvation
+
+
+
+THE one who removes the
+
+torment is mine own son"@/c@/i
+
+
+
+The "six-eyed beast" must be
+
+Darkova, the three-headed
+
+Demon Beast. This section is
+
+based on a prophecy by a
+
+great king of Titania.
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	CUE_000A,
+
+	0,0
+
+)	//章の見出し
+
+
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,270
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//従って、@c( 130, 38, 92 )@i「苦痛を払うるは我が
+
+//息子」@/c@/iとは@b@c(158,78,43)タイタニア王家の血筋@/c@/b
+
+//を指すと思われる
+
+//
+
+//バレンタインの予言にある
+
+//@c( 130, 38, 92 )@i「獣は人を喰らう」@/c@/iとは
+
+//@b@c(158,78,43)人間では獣を倒せぬ@/c@/bという意味か
+
+//
+
+//だがタイタニア王家の者で人間で
+
+//ない者など考えられぬ
+
+//我々の様に@b@c(158,78,43)呪われ、人の姿を
+
+//失った@/c@/bとでもいうなら別だが
+
+@TEXT(
+
+Therefore, @c( 130, 38, 92 )@i"The one who removes
+
+the torment is mine own son"@/c@/i is
+
+thought to refer to the bloodline
+
+of the @b@c(158,78,43)Titanian royal family@/c@/b.
+
+And if the beast @c( 130, 38, 92 )@i"feeds on man,"@/c@/i
+
+then most likely @b@c(158,78,43)no human can
+
+defeat it@/c@/b. But it's unthinkable
+
+that a non-human would be king
+
+of Titania...
+
+
+
+Unless, of course, he is @b@c(158,78,43)cursed@/c@/b
+
+as we are, and is @b@c(158,78,43)no longer
+
+human@/c@/b.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//@c( 110, 80, 50 )叙事詩　詩篇３　３行@/c
+
+//　　@c( 130, 38, 92 )@i「時に亡き彼の主の影」@/c@/i
+
+//
+
+//@c( 110, 80, 50 )バレンタインの予言１節３行@/c
+
+//　 @c( 130, 38, 92 )@i「枷の外れた死の狂乱は」@/c@/i
+
+//
+
+//
+
+//この表現に違和感を拭えない
+
+//死の女王オデットに枷をはめる
+
+//主などおらぬ
+
+@TEXT(
+
+
+
+@c( 110, 80, 50 )Saga Psalm 3@/c
+
+　　@c( 130, 38, 92 )@i"ONE that threatens the
+
+darkness is the shadow of the
+
+lost master"@/c@/i
+
+
+
+@c( 110, 80, 50 )Prophecy Verse 1 Phrase 2@/c
+
+ @c( 130, 38, 92 )@i"The unleashed frenzy of death"@/c@/i
+
+
+
+Something seems odd about these
+
+phrases. Odette, Queen of the
+
+Dead, has no master to "unleash"
+
+her.
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	CUE_000A,
+
+	0,0
+
+)	//章の見出し
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,190
+
+)	//間仕切り
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,320
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//冥府の王がオデットではない
+
+//ならば、終焉で枷から解き放たれ
+
+//冥界を支配しうる者がいようか？
+
+//
+
+//
+
+//思い起こされるのは冥界の獄舎に
+
+//繋がれたガロン王
+
+//死の軍勢を率いて祖国を
+
+//目指すのか…？
+
+@TEXT(
+
+
+
+If the "Lord of the Netherworld"
+
+is not Odette, then what being can
+
+emerge from the Netherworld?
+
+
+
+Only King Gallon, who is chained
+
+in the Netherworld, comes to
+
+mind. Will he lead the army of
+
+the dead to his own country...?
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ３」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//この仮説を元に詩を見直すと
+
+//時に亡き彼の主はオデットを指し
+
+//ガロン王を脅かすのは
+
+//@b@c(158,78,43)オデットの影@/c@/bと読み取れる
+
+//
+
+//
+
+//妖精の国に@b@c(158,78,43)死の影をまとう剣士@/c@/b
+
+//がいると聞いたが…
+
+//
+
+@TEXT(
+
+
+
+Having read the psalms based on
+
+this theory, the "late master"
+
+is Odette, and the shadow that
+
+threatens King Gallon is... @b@c(158,78,43)the
+
+shadow of Odette@/c@/b?
+
+
+
+I've heard that there is a
+
+@b@c(158,78,43)swordsman who bears the shadow
+
+of death@/c@/b in the Fairy Kingdom,
+
+but could that be...?
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//@c( 110, 80, 50 )叙事詩　詩篇４ @/c
+
+//@c( 130, 38, 92 )@i「森を焦がし灼熱が来たる
+
+//　人には抗えぬ炎の奔流は
+
+//　いずれ世界樹に阻まれ消える」@/c@/i
+
+//
+
+//
+
+//終焉に、オニキス王率いる炎の
+
+//軍勢が地上を焼き払うのは
+
+//間違いない
+
+@TEXT(
+
+
+
+@c( 110, 80, 50 )Saga Psalm 4@/c
+
+@c( 130, 38, 92 )@i"THE looming blaze cometh,
+
+burning down the forests
+
+THE flood of fire that man
+
+cannot withstand is halted by
+
+the World Tree and vanishes"@/c@/i
+
+
+
+Evidently, King Onyx's army from
+
+the Fire Kingdom will sweep the
+
+land at Armageddon.
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	CUE_000A,
+
+	0,0
+
+)	//章の見出し
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,275
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ４」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//詩句には@b@c(158,78,43)人では対抗できず@/c@/b
+
+//彼らを滅亡させるのは@b@c(158,78,43)世界樹@/c@/b
+
+//とある
+
+//
+
+//
+
+//だが@b@c(158,78,43)世界樹@/c@/bは神話の存在
+
+//現実にあるものではなく
+
+//この世界には、それに相当
+
+//しそうな樹木もない
+
+//
+
+@TEXT(
+
+
+
+The Saga states that @b@c(158,78,43)mankind
+
+cannot resist@/c@/b, but the @b@c(158,78,43)World
+
+Tree@/c@/b destroys the army.
+
+
+
+Yet, this World Tree exists
+
+only in myth. There is no such
+
+tree in this world.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//もう一つの手がかりは
+
+//
+
+//@c( 110, 80, 50 )バレンタインの予言２節２行@/c
+
+//@c( 130, 38, 92 )@i「玉座の周りを焼き払い…」@/c@/i
+
+//
+
+//
+
+//裏を返せば王座は焼けぬ
+
+//という意味では？
+
+//炎に対抗しうるのは、@b@c(158,78,43)人ではなく
+
+//王座にある者@/c@/bか
+
+//
+
+@TEXT(
+
+
+
+The second clue:
+
+
+
+@c( 110, 80, 50 )Prophecy Verse 1 Phrase 2@/c
+
+@c( 130, 38, 92 )@i"Scorches the throne's
+
+surroundings..."@/c@/i
+
+
+
+Does that mean that the throne
+
+itself does NOT get scorched? If
+
+so, it could be suggesting that
+
+the @b@c(158,78,43)one on the throne@/c@/b is able
+
+to face the flames...
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,230
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ５」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//大釜は無論コルドロンを指す
+
+//姫の努力が無に帰す時、
+
+//悪夢が再現し終焉が始まる
+
+//引き金となるのは我らの王か
+
+//
+
+//@c( 110, 80, 50 )叙事詩　詩篇１　２行@/c
+
+//@c( 130, 38, 92 )@i「鏃と刃で底打てど
+
+//　たぎりは溢れん
+
+//　ただ歩みをば戒めうるのみ」@/c@/i
+
+//
+
+@TEXT(
+
+
+
+"The cauldron" is, of course,
+
+THE Cauldron. When the
+
+princess's efforts are in vain, the
+
+nightmare repeats and the
+
+Armageddon will begin. Our king
+
+must be the one to trigger it.
+
+
+
+@c( 110, 80, 50 )Saga Psalm 1@/c
+
+@c( 130, 38, 92 )@i"THOUGH blades and arrows are
+
+unleashed, the flooding fire
+
+cannot be stopped
+
+IT can only be chained"@/c@/i
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	CUE_000A,
+
+	0,0
+
+)	//章の見出し
+
+
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,500
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//大釜に対抗できる武器がある
+
+//とすればそれはサイファーで
+
+//あろう そして鏃や刃ではなく 
+
+//戒めることができるもの…
+
+//
+
+//
+
+//@c( 110, 80, 50 )バレンタインの予言２節　３行@/c
+
+//@c( 130, 38, 92 )@i「絶望を吐き出す大釜に
+
+//　大陸の古き血が煮えたぎる」@/c@/i
+
+//
+
+//
+
+@TEXT(
+
+If any weapon can match the raw
+
+power of the Cauldron, it would
+
+be some manner of Psypher.
+
+And not a blade, but something
+
+that can chain it...
+
+
+
+
+
+@c( 110, 80, 50 )Prophecy Verse 2@/c
+
+@c( 130, 38, 92 )@i"In the Cauldron that breathes
+
+despair, the blood of the ancients
+
+boils."@/c@/i
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,440
+
+)	//間仕切り
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ６」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//我らはこの大陸では新興の民
+
+//古き血とは呼べぬ
+
+//
+
+//コルドロンを制するのは
+
+//@b@c(158,78,43)バレンタイン人@/c@/bであり、
+
+//戒め繋ぐ@b@c(158,78,43)鎖のサイファー@/c@/bを持つ者
+
+//
+
+//
+
+//つまりは@b@c(158,78,43)ベルベット@/c@/b様なのか
+
+//
+
+@TEXT(
+
+
+
+We are newcomers to this land, so
+
+we are not of the "ancient blood."
+
+
+
+The one who controls the
+
+Cauldron must be @b@c(158,78,43)Valentinian@/c@/b,
+
+and must hold a @b@c(158,78,43)Psypher made of
+
+chains@/c@/b.
+
+
+
+In other words, this must be
+
+Princess @b@c(158,78,43)Velvet@/c@/b.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+//201511204: grammar fix: The one will control → The one who controls
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//コルネリウス殿の見た子竜が、
+
+//王の言うようにレヴァンタン
+
+//ならば、世界を喰らい尽くす巨竜
+
+//となるには気が遠くなるほどの
+
+//時間がかかろう
+
+//
+
+//竜の成長は遅い、だが最後に
+
+//竜は現れると記されている
+
+//
+
+@TEXT(
+
+
+
+
+
+If the baby dragon Master
+
+Cornelius saw is Leventhan, as the
+
+king said, then it will be an
+
+eternity before it matures and
+
+devours the world.
+
+
+
+
+
+It is written that the dragon's
+
+growth is slow, yet inevitable.
+
+
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	CUE_000A,
+
+	0,0
+
+)	//章の見出し
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ７」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//@c( 110, 80, 50 )叙事詩　詩篇５　２行@/c
+
+//@c( 130, 38, 92 )@i　　「混沌と炎から生じ
+
+//　　　　　母の手で眠る」@/c@/i
+
+//
+
+//
+
+//蛇の王を眠らせる母とは何か
+
+//ハインデル、ワーグナー、
+
+//ベリアルの三竜の居ない今、母が
+
+//竜を指す可能性は低い  
+
+//それでは詩句の母とは…
+
+//
+
+@TEXT(
+
+
+
+@c( 110, 80, 50 )Saga Psalm 5@/c
+
+@c( 130, 38, 92 )@i"BORN in chaos and fire
+
+SLEEP in mother's arms"@/c@/i
+
+
+
+
+
+What is the "mother" that puts
+
+the Lord of Snakes to sleep?
+
+With the dragons Hindel, Wagner,
+
+and Belial gone, it seems unlikely
+
+that the mother is a dragon. Then
+
+what is the mother in the Psalms?
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,176
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//@c( 110, 80, 50 )バレンタインの予言３節２行@/c
+
+//@c( 130, 38, 92 )@i「血の石を飲み下せば…」@/c@/i
+
+//
+
+//
+
+//血の石の解釈はコルドロンが作る
+
+//赤い魔石であろう
+
+//
+
+//@b@c(158,78,43)赤い魔石でレヴァンタンを
+
+//制しても終焉は変わらない@/c@/b
+
+//魔王はこれを見越してバロールを
+
+//作ったのでは
+
+//
+
+@TEXT(
+
+@c( 110, 80, 50 )Prophecy Verse 3@/c
+
+@c( 130, 38, 92 )@i"devours the stone of blood"@/c@/i 
+
+
+
+The stone of blood can be taken
+
+to mean the red magic stones
+
+created in the Cauldron.
+
+
+
+@b@c(158,78,43)Even if Leventhan is stopped
+
+by a red stone, the Armageddon
+
+will not stop@/c@/b.
+
+The Demon Lord must have made
+
+Balor in anticipation of this.
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,88
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ８」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//@c( 110, 80, 50 )叙事詩　詩篇６　３行@/c
+
+//@c( 130, 38, 92 )@i　 「蘇る世上に迎えるは…」@/c@/i
+
+//
+
+//
+
+//最後の詩篇は、世界の復活を
+
+//　@b蘇る世上@/b　と直接的に示す
+
+//
+
+//タイタニアの魔法使いや魔王は、
+
+//最後の一文を終焉を制した者が
+
+//新たな王になると解釈した
+
+//
+
+@TEXT(
+
+
+
+@c( 110, 80, 50 )Saga Psalm 6@/c
+
+@c( 130, 38, 92 )@i"and lead the revival"@/c@/i
+
+
+
+
+
+The last psalm explicitly states
+
+that the world will be @brevived@/b.
+
+
+
+The Demon Lord and the Magi
+
+have taken this to mean that
+
+whoever survives Armageddon
+
+will become the new kings of
+
+the world.
+
+
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	CUE_000A,
+
+	0,0
+
+)	//間仕切り（章の見出し）
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,150
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//魔王は勝ち残ろうとし、
+
+//魔法使い達は終焉を操ろうとした
+
+//
+
+//
+
+//だがそれは間違いだ
+
+//
+
+//
+
+//終焉を制する二人の王は予言に
+
+//定められている五つの災厄に
+
+//挑む者達から選ばれるだろう
+
+//
+
+@TEXT(
+
+
+
+The Demon Lord sought victory
+
+through wars, and the mages tried
+
+to control the Armageddon
+
+directly. 
+
+
+
+Yet, they were all mistaken.
+
+
+
+The two lords that survive will
+
+be chosen from the five
+
+challengers of the disasters.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ９」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//
+
+//二人の王は冠の無いとある
+
+//王という言葉は王位ではなく
+
+//別の何かを象徴しているのでは
+
+//ないだろうか
+
+//
+
+//
+
+//最後に、たどりついた結論を記す
+
+//
+
+//
+
+//
+
+@TEXT(
+
+
+
+
+
+The two lords are said to be
+
+crownless. I suspect that "lord" is
+
+not meant to suggest royalty, but
+
+something else.
+
+
+
+Finally, here is the conclusion and
+
+my findings.
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	CUE_000A,
+
+	0,24
+
+)	//章の見出し）
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//仮定に過ぎないが、
+
+//
+
+//@c( 110, 80, 50 )叙事詩　詩篇５　４行@/c
+
+//@c( 130, 38, 92 )@i　「大地に生命は絶え
+
+//　　 　　　終焉が満ちる」@/c@/i
+
+//
+
+//
+
+//この詩句から浮かぶのは沈黙の
+
+//世界、国をなすほどの人数が
+
+//生き残るとは思えぬ
+
+//
+
+//
+
+@TEXT(
+
+
+
+This is conjecture, but from
+
+
+
+
+
+@c( 110, 80, 50 )Psalm 5@/c
+
+@c( 130, 38, 92 )@i"LIFE disappears from the land
+
+ALL comes to an end"@/c@/i
+
+
+
+
+
+One can only imagine a barren
+
+world, with a tiny population.
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_006AX,
+
+	0,280
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１０」====================================================================
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+//)	//上下枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ05.mbs,	GUI/ArchiveOBJ05.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羊皮紙ロール」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//@b無冠の王@/bとは、新世界の人類の
+
+//始祖を意味するのではあるまいか
+
+//さればこそ二人であり
+
+//それは男女である
+
+//
+
+//
+
+//そう考えれば詩篇５の母が
+
+//何を指すのか判る…
+
+//
+
+//
+
+@TEXT(
+
+
+
+By @b"crownless lords,"@/b could this
+
+mean the primogenitors of
+
+mankind in the New World?
+
+
+
+If so, it will by necessity have
+
+to be two humans: a man and a
+
+woman.
+
+
+
+Then we can presume that the
+
+mother in Psalm 5 can be
+
+understood as:
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//レヴァンタンを倒す者が新世界の
+
+//人類の母となり…
+
+//そして父となる もう一人の者
+
+//その二人以外は滅びるのだ
+
+//
+
+//
+
+//これが救済だと言えるのか
+
+//私の考え違いであってくれ
+
+//
+
+@TEXT(
+
+
+
+The one who defeats Leventhan
+
+becomes the mother of the New
+
+World...
+
+
+
+Everyone other than the two
+
+humans will perish.
+
+
+
+How can this be in any way
+
+considered salvation? I hope
+
+that I have misunderstood
+
+the prophecies...
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+

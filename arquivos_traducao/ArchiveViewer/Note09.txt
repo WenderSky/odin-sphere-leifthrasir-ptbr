@@ -1,0 +1,446 @@
+//@TITLE( 「三賢人とオーダイン」 )
+
+@TITLE( "Odin and the Three Wise Men" )
+
+//(オズワルド6章クリアにて入手)
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_06	//紙束(古)
+
+	)
+
+
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_003_b,	0,0
+
+)	//禍々しい枠（文字数制限付）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//　不遜の王@b@c(138,58,23)オーダイン@/c@/b、@c(50,35,20)憎らしい我ら
+
+//　@b@c(138,58,23)三賢人@/c@/b@c(50,35,20)の仇敵よ……奴との因縁の
+
+//　始まりはもう随分と昔になる
+
+//
+
+//　エリオン随一の魔術の大家として
+
+//　多くの弟子を擁した我らの研究室に、
+
+//　下男として潜り込んだ者がいた
+
+//
+
+//　我らも未踏の地、冥界への抜け道
+
+//　を知っていると嘯いたこの輩こそ、
+
+//　姿を変じたオーダインであった
+
+//
+
+//
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+    The insolent king @b@c(138,58,23)Odin@/c@/b@c(50,35,20) is the
+
+    sworn enemy of we @b@c(138,58,23)Three Wise 
+
+    Men@/c@/b@c(50,35,20)...Once Erion's greatest magi,
+
+    we had countless disciples, until
+
+    one man infiltrated our library
+
+    posing as a servant.
+
+    
+
+    It was none other than Odin
+
+    himself, in mortal guise...
+
+    
+
+    He whispered to us that he
+
+    knew a path to the Netherworld.
+
+)	//------------------------------------------------------------------------
+
+
+
+
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+//「ページ2」====================================================================
+
+@PAGE_BEGIN
+
+
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_003_b,	0,0
+
+)	//禍々しい枠（文字数制限付）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//　道を教える条件に、魔石の秘密を
+
+//　求めた下男の高慢さに、我らは
+
+//　頭に血が昇り、足をすくわれた
+
+//
+
+//　奴の身を縛り口を割らせる魔法を
+
+//　かけたはずが、術返しにより、此方
+
+//　が秘密を話す羽目になったのだ
+
+//
+
+//　そして、奴は去る前に呪いを残し、
+
+//　我らを醜い蛙姿へと変え、貶めた
+
+//
+
+//　あの屈辱を決して忘れはしない！
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+    In return, he asked for the secret
+
+    of the Psyphers! We were
+
+    outraged by his brazen arrogance,
+
+    and lost our tempers.
+
+    
+
+    We bound him and cast a charm to
+
+    make him speak, but he reflected
+
+    the magic back upon us...
+
+
+
+    As he left, Odin cursed us,
+
+    changing us into foul and ugly
+
+    frogs. Such insult can never be
+
+    forgiven!
+
+)	//------------------------------------------------------------------------
+
+//□□□□□□□□□□□□□□□□□
+
+
+
+
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+//「ページ3」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_06	//紙束(古)
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_003_b,	0,0
+
+)	//禍々しい枠（文字数制限付）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//　元の姿に戻る頃には失態が知れ渡り
+
+//　我らの権威は地に堕ちていた
+
+//　そんな我らの手腕を買い、救って
+
+//　下さったのが偉大なるタイタニアの
+
+//　賢王@b@c(138,58,23)ガロン@/c@/b@c(50,35,20)陛下その人だったのだ
+
+//
+
+//　そして今、亡き陛下の遺志を継ぎ、
+
+//　予言を成就させる事こそ我らが命題
+
+//
+
+//　そのためにも、あの@b@c(138,58,23)オーダイン@/c@/b@c(50,35,20)は
+
+//　邪魔な存在だ
+
+//　必ずやこの手で引導を渡してくれる
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+    By the time we regained our true
+
+    forms, word of our blunder had
+
+    spread. Our reputation was
+
+    tarnished.
+
+    
+
+    When we lost all else, it was
+
+    @b@c(138,58,23)Gallon@/c@/b@c(50,35,20), the great king of Titania,
+
+    that saved us from poverty.
+
+
+
+    We have inherited his legacy
+
+    and his prophecy... and it is
+
+    for him that we shall end
+
+    King Odin.
+
+)	//------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	ANNOTATION_03B	//紙束(古)+注釈
+
+	)
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_03B );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_03B_END );//前ページへ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_003_b,	0,0
+
+)	//禍々しい枠（文字数制限付）
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//@b@c(158,78,43)三賢人@/c@/bの一人、@b@c(158,78,43)スカルディ@/c@/bによる
+
+//手記の一部だ
+
+//かつて彼らとオーダインとの間に
+
+//起きた事件が語られている
+
+//賢人らのオーダインに対する怨恨
+
+//は根深く、彼を貶めるために
+
+//様々な謀略をめぐらせていた
+
+//
+
+@TEXT(
+
+An account by @b@c(138,58,23)Skuldi@/c@/b, one of
+
+the Three Wise Men. They have
+
+a past with Odin, and their
+
+hatred of him fuels their
+
+many schemes for his defeat.
+
+)	//------------------------------------------------------------------------
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+

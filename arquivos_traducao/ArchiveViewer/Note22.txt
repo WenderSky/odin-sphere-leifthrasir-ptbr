@@ -1,0 +1,420 @@
+//@TITLE( 「闇の契約書」 )
+
+@TITLE( "Contract of Darkness" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00l.ftx, 
+
+	PAPER_06	//汚れた紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	OBJ_11,	0,0
+
+)	//スポットライト（赤）
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	CUT_P02_200,	0,0
+
+)	//挿絵
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	CUT_P02_210,	10,0
+
+//)	//血痕３
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+@TEXT(
+
+@c(50,35,20)
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+//「ページ2」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	OBJ_11,	0,0
+
+)	//スポットライト（赤）
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	CUT_P02_213,	-5,0
+
+)	//血痕１
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//　死の国エンデルフィアを統べる麗し
+
+//　の女王よ、私は陛下を信奉する者
+
+//　今再び、陛下の力をお借りしたい
+
+//
+
+//　私が所持する魔石の剣に、闇の力を
+
+//　帯びさせることを望む
+
+//　望みが叶った暁には、この剣は陛下
+
+//　を苛む魔王と兵らの血を吸い、
+
+//　屍の山を築きあげるだろう
+
+//
+
+//　対価として、剣の使い手オズワルド
+
+//　の血肉と魂を捧げることを約束する
+
+//
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+I seek a contract with the
+
+beautiful Queen Odette.
+
+
+
+I ask for the power of darkness
+
+for our crystal sword. The
+
+blade shall drink the blood of
+
+the soldiers of your hated foe,
+
+the Demon Lord, and raise a
+
+mountain of corpses.
+
+
+
+
+
+I offer in return the flesh and
+
+soul of the swordsman Oswald.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ3」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	OBJ_11,	0,0
+
+)	//スポットライト（赤）
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00l.ftx, 
+
+	PAPER_06	//汚れた紙束 ※注釈の前頁にはテンプレートの再指定
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	CUT_P02_211,	-20,20
+
+)	//血痕３
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//　使い手が闇の力を行使する度に、
+
+//　臓腑一つ骨一本が陛下の物となる
+
+//
+
+//　オズワルドは、これまでに捧げた
+
+//　どの人間よりも、
+
+//　優れた肉体と精神を持つ供物である
+
+//　陛下に御満足頂けることを願う
+
+//
+
+//真の名にかけて約定に準ずることを誓う
+
+//　　リングフォールド女王の甥にして
+
+//　　　　　　　　政務官メルヴィン公
+
+//
+
+//
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+Each use of his power shall
+
+entitle you to one organ
+
+and one bone.
+
+Oswald's body and soul are
+
+far superior to all humans I
+
+have offered you thus far.
+
+I trust you will find him to
+
+your liking.
+
+
+
+
+
+On my true name, I pledge.
+
+ Nephew to the queen of Ringford
+
+　　　　　　　　　Duke Melvin
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	OBJ_11,	0,0
+
+)	//スポットライト（赤）
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00l.ftx, 
+
+	ANNOTATION_03B	//本+注釈
+
+	)
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_03B );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_03B_END );//前ページへ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00l.ftx,	CUT_P02_211,	-20,20
+
+)	//血痕３
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//妖精国の重臣@b@c(158,78,43)メルヴィン@/c@/bが、
+
+//秘密裏に@b@c(158,78,43)冥界の女王@/c@/bに宛てた
+
+//契約書の一部だ
+
+//ラグナネイブル軍ですら怖れる、
+
+//黒い剣士が持つ@b@c(158,78,43)魔剣@/c@/bの力は、
+
+//使い手の命を犠牲に得られた
+
+//ものであった
+
+@TEXT(
+
+Part of the contract that the
+
+chief vassal of Ringford,
+
+@b@c(158,78,43)Melvin@/c@/b, sent to the @b@c(158,78,43)queen of
+
+the Netherworld@/c@/b.
+
+The fearsome power of the
+
+@b@c(158,78,43)Belderiver@/c@/b came at the
+
+cost of the wielder's life.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+

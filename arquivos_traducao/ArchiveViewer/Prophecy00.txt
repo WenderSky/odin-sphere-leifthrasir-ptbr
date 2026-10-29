@@ -1,0 +1,338 @@
+// タイトル
+
+//@TITLE( 「オーダイン王の予言解釈」 )
+
+@TITLE( "Odin's Interpretation" )
+
+//(グウェンドリン編にて入手)
+
+
+
+// MONEの下地
+
+//@MONE_TEMPLATE( 
+
+//	ArchiveFrame00.mbs,
+
+//	ArchiveFrame00a.ftx, 
+
+//	VELLUM_02	//羊皮紙束＋注釈なんだが…？
+
+//	)
+
+
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(6) // 文字の間隔
+
+@FONT_NUM_X(21)   // 並ぶ文字の数（羊皮紙は２１文字×１４行）
+
+@FONT_NUM_Y(15)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00a.ftx, 
+
+	VELLUM_02	//羊皮紙束
+
+	)
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□□□□
+
+//
+
+//大陸には古くから世界の@b@c(158,78,43)終焉@/c@/bを@b@c(158,78,43)予言@/c@/bする
+
+//多くの文献が書かれ、その正誤について
+
+//議論がなされてきた
+
+//
+
+//世界を隻眼で見通し、多くの叡知を得た私が、
+
+//@b@c(158,78,43)終焉@/c@/bに至る@b@c(158,78,43)予言@/c@/bの真意を我が臣民に伝えよう
+
+//
+
+//太陽が地平に沈む黄昏のとき、@y(25)@c(158,78,43)
+
+//@/y@b@i　　　獣、死の王、炎、大釜、竜@/b@/i@y(25)
+
+//@/y@/cこの五つの災厄が世界を襲い、大陸全土で
+
+//世界の命運をかけた最後の戦がはじまる
+
+//
+
+@TEXT(
+
+  In this land, there exist many records
+
+  that @b@c(158,78,43)foretell Armageddon@/c@/b, all of which
+
+  have been subject to much scrutiny.
+
+  I have seen the truths of the world
+
+  through my one eye, and obtained great
+
+  wisdom... This is what I have learned.
+
+
+
+  In the world's twilight, five calamities
+
+  will fall upon the land:@y(25)@c(158,78,43)@/y@b@i the beast, the
+
+  lord of the dead, the flame, the
+
+  cauldron, and the dragon@/c@/b.@/i@y(25)@/y
+
+  The war for the fate of the world will
+
+  begin.
+
+
+
+)	//------------------------------------------------------------------------
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00a.ftx, 
+
+	VELLUM_02	//羊皮紙束
+
+	)
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□□□□
+
+//
+
+//この戦いに最後まで勝ち残った者が、
+
+//この世のすべてを手に入れる新たな王と
+
+//なるのだ
+
+//
+
+//ラグナネイブルの全軍は、この来たるべき
+
+//最後の戦いで勝利をおさめるため、備え
+
+//なければならない
+
+//
+
+//@b@c(158,78,43)コルドロン@/c@/b獲得はそのための布石だ
+
+//魔素を無尽蔵に得られる@b@c(158,78,43)結晶炉@/c@/bは、勝利の
+
+//ために絶対に欠かすことの出来ない宝である
+
+//
+
+//
+
+//
+
+@TEXT(
+
+
+
+  He who survives this battle will become
+
+  the new king.
+
+
+
+  All armies of Ragnanival must prepare,
+
+  that we may claim victory in the true
+
+  final battle.
+
+
+
+  Securing the @b@c(158,78,43)Cauldron@/c@/b will lay the
+
+  foundation for our triumph. If we
+
+  are to succeed, we must harness the
+
+  almighty power of infinite Phozons.
+
+
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00a.ftx, 
+
+	ANNOTATION_05	//羊皮紙束+注釈
+
+	)
+
+//@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_05 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_05_END );//前ページへ
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//@b@c(158,78,43)オーダイン@/c@/b王がラグナネイブルの
+
+//民に向け、@b@c(158,78,43)終焉@/c@/bの真意を語った
+
+//ものだが、その内容は独自の解釈
+
+//といえる
+
+//陣営強化の大義名分に@b@c(158,78,43)予言@/c@/bをも
+
+//利用する、これも@b@c(158,78,43)魔王@/c@/bの戦略か
+
+@TEXT(
+
+The @b@c(158,78,43)Demon Lord@/c@/b's words to
+
+the public about the truth
+
+of the @b@c(158,78,43)prophecy@/c@/b. He outlines
+
+a unique interpretation,
+
+using it as justification to
+
+strengthen his military. Is
+
+he simply scheming further?
+
+)	//------------------------------------------------------------------------
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

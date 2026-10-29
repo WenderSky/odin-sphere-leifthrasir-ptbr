@@ -1,0 +1,306 @@
+//@TITLE( 「死の女王への貢ぎ物」 )
+
+@TITLE( "Tribute to the Queen of the Dead" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00g.ftx, 
+
+	PAPER_06	//汚れた紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00g.ftx,	OBJ_11,	0,0
+
+)	//スポットライト（赤）
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00g.ftx,	CUT_P02_200,	0,0
+
+)	//挿絵
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00g.ftx,	CUT_P02_209,	0,0
+
+//)	//血痕１
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+@TEXT(
+
+@c(50,35,20)
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+//「ページ2」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00g.ftx,	OBJ_11,	0,0
+
+)	//スポットライト（赤）
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00g.ftx,	CUT_P02_209,	0,0
+
+//)	//血痕１
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//冥界に堕ちた我ら亡者は、
+
+//女王が持つ死の力に体を蝕まれ、
+
+//群がる魍魎に腐肉を裂かれるのが定め…
+
+//
+
+//抗う気も失せた我らは、せめて
+
+//目溢しに預かろうと、卑しくも
+
+//女王に貢ぎ物を捧げている
+
+//
+
+//神殿を青く照らす宝石の数々、
+
+//あれは、この地に生じる魂の結晶を
+
+//我らが這いまわってかき集め、
+
+//女王に献上したものだ
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+We, the dead, are cursed by the
+
+almighty power of the queen;
+
+fated to have our rotting flesh
+
+torn away by dark specters.
+
+
+
+
+
+We cannot resist. We may only scour
+
+the realm in search of blue gems...
+
+crystallized souls... to appease
+
+the queen, and quell her ire.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+
+
+//「ページ3」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00g.ftx,	OBJ_11,	0,0
+
+)	//スポットライト（赤）
+
+
+
+// MONEの下地
+
+//@MONE_TEMPLATE( 
+
+//	ArchiveFrame00.mbs,
+
+//	ArchiveFrame00g.ftx, 
+
+//	PAPER_06	//汚れた紙束 ※注釈の前頁にはテンプレートの再指定
+
+//	)
+
+
+
+//@MONE_OVERLAP(
+
+//	CUT, // 制御用のラベル名をつけます
+
+//	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00g.ftx,	CUT_P02_209,	0,0
+
+//)	//血痕１
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//しかし、何より女王を喜ばせるのは、
+
+//我らには手の届かぬ代物…健やかなる
+
+//肉体と魂を持つ生者であろう
+
+//
+
+//女王との契約により、魂と引き替えに
+
+//死の力を得た者だけが、生ける供物と
+
+//して女王の下へ招かれるのだ
+
+//
+
+//だが、その肉体も女王に弄ばれると、
+
+//呆気なく朽ち果ててしまう
+
+//そのため、女王は常に若く新鮮な
+
+//生贄を欲している
+
+//
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+But the queen's greatest desire is
+
+something beyond our grasp...
+
+A living being, with healthy body
+
+and soul.
+
+
+
+
+
+Some sell their soul to her as a
+
+living sacrifice, in search of power...
+
+but they, too, rot away in her hands.
+
+Her thirst for souls may never be
+
+quenched...
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+

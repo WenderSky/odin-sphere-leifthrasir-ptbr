@@ -1,0 +1,310 @@
+//@TITLE( 「タイタニアの法律」 )
+
+@TITLE( "The Law of Titania" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束※注釈の前項にはテンプレートの再指定
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_000_c,	0,0
+
+)	//かすれた枠（タイタニア風）
+
+
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□□
+
+//一つ、「王のための表通り」で
+
+　　　　　　　　　　　//商いせし者は罰金
+
+//
+
+//一つ、王の許可なく商いを始める者も罰金
+
+//
+
+//一つ、税を払わぬ者は吊るし首
+
+//
+
+//一つ、税が高いと唱える者、
+
+　　　　　　　//鞭打ち・晒し台の刑に処す
+
+//
+
+//一つ、魔法使いを疎んじた者、
+
+　　　　　　　　　　　//晒し台の刑に処す
+
+//
+
+//一つ、刃傷事件の加害者は、
+
+　　　　//その場で処刑、もしくは吊るし首
+
+//
+
+//
+
+//
+
+@TEXT(
+
+
+
+
+
+Those who do business on "King's
+
+Mainstreet" shall be fined.
+
+
+
+
+
+Those who do business without
+
+express permission from the king
+
+shall also be fined.
+
+
+
+
+
+Those who do not pay the tax shall
+
+be executed by hanging.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+//20151203 fix: Those who do not pay the tax shall be executed by (beheading → hanging). 
+
+
+
+
+
+//「ページ2」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_000_c,	0,0
+
+)	//かすれた枠（タイタニア風）
+
+
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□□
+
+@TEXT(
+
+
+
+
+
+Those who complain of high taxes
+
+shall be subject to flogging and
+
+the stocks.
+
+
+
+
+
+Those who discriminate against magi
+
+shall be subject to the stocks.
+
+
+
+
+
+Those who cause bloodshed shall be
+
+executed on the spot, or by hanging.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+//20160120 VANILLAWARE:本文が1ページで入りきっていないので、2ページ目に分割しました
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	ANNOTATION_03	//本+注釈
+
+	)
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_03 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_03_END );//前ページへ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_000_c,	0,0
+
+)	//かすれた枠（タイタニア風）
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//@b@c(158,78,43)エドマンド@/c@/b王は、即位した当時、
+
+//名君と呼ばれた先代を継ぐ王と
+
+//して国民に歓迎され人気を博した
+
+//
+
+//しかし、のちに施行された悪法と
+
+//法外な増税により国民は苦しみ、
+
+//その評価は地に落ちた
+
+//
+
+//
+
+@TEXT(
+
+King @b@c(158,78,43)Edmund@/c@/b was initially
+
+welcomed by the people as the
+
+heir to the legacy of the wise
+
+previous ruler. When he began
+
+imposing harsh laws and
+
+taxation policies, however,
+
+public favor turned foul.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+//20151203 fix: color code added
+

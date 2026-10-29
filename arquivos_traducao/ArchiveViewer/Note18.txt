@@ -1,0 +1,234 @@
+// タイトル
+
+//@TITLE( 「プーカキッチン＆カフェの宣伝チラシ」 )
+
+@TITLE( "Pooka Kitchen & Cafe Flyer" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00e.ftx, 
+
+	PAPER_09	//紙束（プーカチラシ用特殊仕様）
+
+	)
+
+
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(9)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(7)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+//■「〜」が登録されていない
+
+@PAGE_BEGIN
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□
+
+//バレンタインコイン
+
+　　//をお持ちの
+
+　//紳士淑女の皆様へ
+
+//
+
+//〜来たれ！
+
+//　食いしん坊の楽園
+
+//　プーカの街〜
+
+//
+
+@TEXT(
+
+To anyone with
+
+Valentinian coins.
+
+
+
+We Welcome You!
+
+Gourmand Heaven
+
+Pooka Village
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00e.ftx, 
+
+	PAPER_02	//紙束（プーカチラシ用特殊仕様）
+
+	)
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( PAPER_02 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( PAPER_09 );//前ページへ
+
+
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00e.ftx,	CUT_P02_006,	0,0
+
+)	//汎用枠線
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00e.ftx,	CUT_P02_208,	0,0
+
+)	//硬貨
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//「@b@c(158,78,43)兎の喫茶店@/c@/b」と「@b@c(158,78,43)料理屋プーカ@/c@/b」では
+
+//私たちが作るおいし〜いお料理や
+
+//お菓子をお召し上がりいただけます
+
+//
+
+//お代に、
+
+//
+
+//をいただきま〜す
+
+//
+
+//お代さえいただければ@b@c(158,78,43)食材@/c@/bは結構です！
+
+//毎日とれたての新鮮食材をご用意して
+
+//お待ちしております
+
+//
+
+//@b@c(158,78,43)プーカの街@/c@/bにお越しの際は、
+
+//ぜひお立ち寄りくださいね！
+
+@TEXT(
+
+At the "@b@c(158,78,43)Rabbit Cafe@/c@/b" and "@b@c(158,78,43)Pooka
+
+Kitchen@/c@/b", we serve delicious food
+
+and lovely sweets.
+
+
+
+
+
+
+
+
+
+We accept any of these coins!
+
+
+
+All you need to do is pay the bill!
+
+We provide all our own fresh
+
+@b@c(158,78,43)ingredients@/c@/b. When you come to@b@c(158,78,43) the
+
+Pooka village@/c@/b, please drop by!
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+

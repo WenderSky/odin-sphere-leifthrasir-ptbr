@@ -1,0 +1,18 @@
+# nunca versionar arquivos do jogo (copyright)
+*.CPK
+*.cpk
+*.undo
+extraidos_*/
+# caches de tradução (as chaves são os textos originais do jogo)
+translation_cache*.json
+# no repositório só vão o instalador e o leitor de CPK
+ferramentas/*
+!ferramentas/patcher.py
+!ferramentas/cpk.py
+!ferramentas/LICENSE-GPL-2.0.txt
+GUIA_TECNICO_TRADUCAO.md
+# lixo
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,410 @@
+// タイトル
+
+//@TITLE( 「二人の王子と宝剣」 )
+
+@TITLE( "Two Princes and the Treasured Sword" )
+
+
+
+// MONEのワク（開く・めくるなどのアニメに対応するもの）
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00j.ftx, 
+
+	BOOK_01	//本
+
+	)
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00j.ftx,	CUT_B01_000,	0,0
+
+)	//挿絵
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00j.ftx,	CUT_B01_104,	0,0
+
+)	//本用タイタニア枠
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+@TEXT(
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//
+
+//@b@c(158,78,43)タイタニア@/c@/b先王@b@c(158,78,43)ガロン@/c@/bの治世、
+
+//同盟を結んだラグナネイブルから
+
+//友好の証として@b@c(158,78,43)宝剣@/c@/bが贈られた
+
+//
+
+//宝剣は、希少な魔石から作られた
+
+//世にも美しい逸品であったが、
+
+//タイタニアでは@b@c(158,78,43)呪いの剣@/c@/bとして
+
+//一部に知られていたという
+
+//
+
+//そのきっかけとなった逸話がある
+
+//
+
+//
+
+@TEXT(
+
+When @b@c(158,78,43)Gallon@/c@/b, the previous
+
+king of @b@c(158,78,43)Titania@/c@/b yet lived,
+
+Ragnanival gifted them a
+
+@b@c(158,78,43)treasured sword@/c@/b as proof of
+
+their alliance.
+
+
+
+It was set with a magical
+
+blade known as a Psypher,
+
+but in Titania, it is now
+
+known as a cursed blade.
+
+So goes the story...
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00j.ftx, 
+
+	BOOK_01	// 注釈からこのページに戻るときに情報が必要なため仕込みます　野間
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00j.ftx,	CUT_B01_104,	0,0
+
+)	//本用タイタニア枠
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//王の二人の愛息のうち、跡継ぎと
+
+//目される@b@c(158,78,43)兄王子@/c@/bが、@b@c(158,78,43)宝剣@/c@/bをいたく
+
+//気に入り、王は彼に剣を与えた
+
+//
+
+//そして、兄王子は剣技を見せよう
+
+//として誤って王を傷つけてしまう
+
+//
+
+//その時だ、かすり傷にも関わらず
+
+//王は血相を変えて怒り、
+
+//慈悲深い王の豹変に家臣は驚いた
+
+//
+
+@TEXT(
+
+Of the royal sons, the @b@c(158,78,43)elder@/c@/b
+
+took a liking to the mystic
+
+sword, and the king gave
+
+it to him graciously.
+
+As he brandished the blade,
+
+however, he accidentally
+
+injured his father.
+
+Though a minor, shallow cut,
+
+the king was enraged. The
+
+normally gentle monarch's
+
+furor shocked his vassals.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//兄の恩赦を求める@b@c(158,78,43)弟王子@/c@/bの声も
+
+//届かず、以来、王は兄王子を遠ざ
+
+//け、その確執は長く続いたという
+
+//
+
+//後に兄王子は、自ら王族を捨て、
+
+//愛する娘と駆け落ちするに至った
+
+//
+
+//王家に起きた一連の騒動から、
+
+//宝剣は災いを招く品とされ、
+
+//歴史の闇に葬られたのだ
+
+//
+
+@TEXT(
+
+Though even the @b@c(158,78,43)younger son@/c@/b
+
+pleaded his father's
+
+forgiveness, the king grew
+
+cold and distant from the
+
+elder. Eventually, the elder
+
+son renounced his royal blood,
+
+and fled with his lover.
+
+Since that day, the treasured
+
+sword has been thought
+
+cursed, and was buried in
+
+the darkness of history.
+
+)	//------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00j.ftx, 
+
+	ANNOTATION_06	//本+注釈
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00j.ftx,	CUT_B01_104,	0,0
+
+)	//本用タイタニア枠
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_06 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_06_END );//前ページへ
+
+
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(1)
+
+
+
+
+
+@FRAME(2)	//3つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//@b@c(158,78,43)タイタニア@/c@/b王宮の内情に通じる者
+
+//が記したとされる、王家に起きた
+
+//騒動を伝える書物だ
+
+//@b@c(158,78,43)第一王子@/c@/bの過失をきっかけとした
+
+//@b@c(158,78,43)ガロン@/c@/b王の豹変の理由は明らかに
+
+//なっておらず、真相は謎に包まれ
+
+//ている
+
+//
+
+@TEXT(
+
+An account of the royal
+
+family's incident with the
+
+cursed sword. The source of
+
+King Gallon's rage was never
+
+truly clarified, and mystery
+
+surrounds the tale.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+

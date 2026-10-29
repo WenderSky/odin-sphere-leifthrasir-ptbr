@@ -1,0 +1,212 @@
+//@TITLE( 「発掘調査の手引き」 )
+
+@TITLE( "Excavation Guide" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_004_a,	0,0
+
+)	//汎用枠
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//我らドワーフによって組織された調査隊
+
+//はオーダイン王の命を受け、世界各地に
+
+//眠る財宝の発掘調査を行っている
+
+//
+
+//現在は、魔力を秘めた希少な鉱石として
+
+//注目される@b@c(158,78,43)フォゾンプリズム@/c@/bを探しあて
+
+//ることが急務となっている
+
+//
+
+//王の期待にそえる成果を挙げるため、
+
+//後続隊にむけて、調査におけるコツを
+
+//以下に書き記す
+
+//
+
+@TEXT(
+
+By order of King Odin, we
+
+Dwarves have formed exploration
+
+teams to find and unearth hidden
+
+treasures around the world.
+
+
+
+Currently, we are tasked with
+
+finding @b@c(158,78,43)Phozon Prisms@/c@/b, rare ores
+
+rich in magic.
+
+
+
+For the sake of the teams that
+
+may follow in our footsteps, I
+
+leave this guide. Our monarch
+
+expects much of us... We
+
+cannot fail him.
+
+)
+
+	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+//「ページ2」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_004_a,	0,0
+
+)	//汎用枠
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//１．隅々まで調査すべし
+
+//
+
+//　財宝の多くは人目につかない場所に
+
+//　隠れており、漫然と歩いているだけ
+
+//　では発見できない
+
+//
+
+//　探求心をはたらかせ、見えるところ
+
+//　すべてに足を運ぶ熱意が必要だ
+
+//
+
+//　裏道や獣道があれば入り、怪しげな
+
+//　扉があれば@b@c(158,78,43)鍵@/c@/bを見つけて中に踏みこみ
+
+//　現場の隅々に目を光らせよ
+
+//
+
+@TEXT(
+
+1. Search Everything
+
+
+
+  Many treasures are hidden in
+
+  places you cannot see. You won't
+
+  find them just walking aimlessly.
+
+
+
+  Be ever vigilant, and explore
+
+  everywhere within your sight.
+
+
+
+  Follow back roads, and find @b@c(158,78,43)keys@/c@/b
+
+  to unlock doors. No matter where
+
+  you go, keep a careful watch.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+

@@ -1,0 +1,454 @@
+// タイトル
+
+//@TITLE( 「グリゼルダの槍」 )
+
+@TITLE("Griselda's Spear" )
+
+
+
+// MONEのワク（開く・めくるなどのアニメに対応するもの）
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00i.ftx, 
+
+	BOOK_01	//本。日記という前提なら本のほうがいいかなと
+
+	)
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00i.ftx,	OBJ_12B,	0,0
+
+)	//スポットライト（青）
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00i.ftx,	CUT_B01_000,	0,0
+
+)	//挿絵
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00i.ftx,	CUT_B01_113,	0,0
+
+)	//上下細枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ06.mbs,	GUI/ArchiveOBJ06.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羽根」
+
+
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+@TEXT(
+
+
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//穂先に青い魔石の刃をいただき、
+
+//柄には王によるルーン文字が
+
+//刻まれた特別な@b@c(158,78,43)槍@/c@/b……
+
+//
+
+//あの槍を戦場で振るうことを
+
+//唯一許された戦士、それが
+
+//ラグナネイブル第一王女にして
+
+//我ら@b@c(158,78,43)ワルキューレ@/c@/b隊の長、
+
+//@b@c(158,78,43)グリゼルダ@/c@/b様である！
+
+@TEXT(
+
+
+
+The peerless @b@c(158,78,43)spear@/c@/b tipped
+
+with a blue Psypher, with
+
+runes inscribed into the
+
+grip...
+
+
+
+It has but one rightful
+
+wielder... Ragnanival's
+
+first princess, and our
+
+champion of the @b@c(158,78,43)Valkyries@/c@/b:
+
+Princess @b@c(158,78,43)Griselda@/c@/b!
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00i.ftx,	OBJ_12B,	0,0
+
+)	//スポットライト（青）
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00i.ftx,	CUT_B01_113,	0,0
+
+)	//上下細枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ06.mbs,	GUI/ArchiveOBJ06.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羽根」
+
+
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//@b@c(158,78,43)グリゼルダ@/c@/b様が王の御前で、
+
+//賜った@b@c(158,78,43)槍@/c@/bの威力を披露されたこと
+
+//で、@b@c(158,78,43)ワルキューレ@/c@/b隊は来たる進軍
+
+//の要となる大役を見事に勝ち得た
+
+//
+
+//長らく男たちの後塵を拝してきた
+
+//我らにとって、隊長の姿は
+
+//闇夜に燦然と輝き我らを導く、
+
+//心星のようである
+
+//
+
+@TEXT(
+
+
+
+With her display of the
+
+spear's might for the king,
+
+Princess Griselda boldly
+
+won the right to lead the
+
+charge of the Valkyries.
+
+
+
+For we who have spent so
+
+long in the shadows of the
+
+men, she is the lodestar that
+
+guides us through the night.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//グリゼルダ様のご活躍には、
+
+//年若く天上の星となられた母君も
+
+//お喜びに違いない
+
+//
+
+//いずれ隊長の補佐となり、姉君を
+
+//支えるであろう@b@c(158,78,43)グウェンドリン@/c@/b様
+
+//にも、それにふさわしい風格が
+
+//望まれる
+
+//
+
+@TEXT(
+
+
+
+Her young mother is already
+
+among the stars, but I am
+
+sure she must be rejoicing
+
+in the heavens.
+
+
+
+Soon, Princess @b@c(158,78,43)Gwendolyn@/c@/b
+
+will be called upon to
+
+support her sister. I hope
+
+she is worthy of the task...
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00i.ftx, 
+
+	ANNOTATION_06	//本+注釈
+
+	)
+
+
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_06 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_06_END );//前ページへ
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00i.ftx,	OBJ_12B,	0,0
+
+)	//スポットライト（青）
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00i.ftx,	CUT_B01_113,	0,0
+
+)	//上下細枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ06.mbs,	GUI/ArchiveOBJ06.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「羽根」
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(1)
+
+
+
+
+
+@FRAME(2)	//３つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+
+
+//□□□□□□□□□□□□□□
+
+//魔王軍の女戦士ワルキューレの
+
+//手記の一部だ
+
+//グリゼルダが彼女らにどれほど
+
+//崇敬されていたかがわかる
+
+//グリゼルダが戦死したのち、槍を
+
+//受け継いだ妹姫には、多大な期待
+
+//が寄せられたことだろう
+
+//
+
+@TEXT(
+
+Memorandum of a Valkyrie
+
+of the Ragnanival army.
+
+This illustrates their
+
+adoration of Griselda.
+
+After her death, her
+
+sister bore the weight
+
+of their expectations.
+
+)	//------------------------------------------------------------------------
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+

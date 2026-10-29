@@ -1,0 +1,430 @@
+//@TITLE( 「三賢人の予言解読」 )
+
+@TITLE( "Wise Men's Analysis" )
+
+//(ベルベット終章ボス戦後ドラマにて入手)
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_06	//紙束(古)
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_003_b,	0,0
+
+)	//禍々しい枠（文字数制限付）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//
+
+//　…今は亡きタイタニア王が、
+
+//　バレンタイン軍撃退のために行った
+
+//　秘術で
+
+//　ガロン王は３つ首の魔獣となった
+
+//　つまり予言どおり@b@c(138,58,23)６つ目の獣@/b@c(50,35,20)へと
+
+//
+
+//
+
+//　やはりガロン王こそ
+
+//　世界を救う御手を導く方なのだ        
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+ To drive back the invading
+
+ Valentinian forces, King Gallon used
+
+ the mystic power of Titania to turn
+
+ into the three-headed Demon Beast;
+
+ in other words, the @b@c(138,58,23)six-eyed beast@/b@c(50,35,20)
+
+ of the prophecy.
+
+
+
+ Just as we thought: King Gallon
+
+ is the guiding hand of salvation!
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_003_b,	0,0
+
+)	//禍々しい枠（文字数制限付）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//
+
+//　…冥府の王は
+
+//　冥界を支配する 女王オデットを指す
+
+//
+
+//　灼熱はすなわち
+
+//　炎の王オニキスを指す言葉
+
+//
+
+//　今一度、タイタニア王が秘術の封印
+
+//　を解いて 他国を圧倒し
+
+//　コルドロンを手中に収めれば…
+
+//
+
+//
+
+@TEXT(
+
+@c(50,35,20)
+
+
+
+ The 'Lord of the Netherworld' in
+
+ the Saga is Queen Odette.
+
+
+
+ The 'looming blaze' is the
+
+ Inferno King Onyx.
+
+
+
+ If the king of Titania releases his
+
+ mystic power, overpowers the other
+
+ nations, and seizes the Cauldron...
+
+
+
+)	//------------------------------------------------------------------------
+
+//@MONE(
+
+//	ArchiveFrame00.mbs,
+
+//	ArchiveFrame00c.ftx, 
+
+//	LINE_004B,
+
+//	0,176
+
+//)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ３」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_06	//紙束(古)
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_003_b,	0,0
+
+)	//禍々しい枠（文字数制限付）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//@c(50,35,20)
+
+//
+
+//　　死と炎の両国もこれに参戦し
+
+//　　３匹の竜の粛清によって
+
+//　　終焉を迎える運びとなる
+
+//
+
+//　　だが、恐れる事は無い
+
+//　　最後に世界は救われるのだ
+
+//
+
+//　　導き手によって世界を統べる
+
+//　　@b@c(138,58,23)新たな王@/b@c(50,35,20)が現れて…
+
+@TEXT(
+
+@c(50,35,20)
+
+ ...the Netherworld and the
+
+ Fire Kingdom will join the war,
+
+ and the three dragons will
+
+ eradicate all, bringing the End
+
+ to us.
+
+
+
+ But fear not. The world will be
+
+ saved in the end.
+
+
+
+ By the arrival of a @b@c(138,58,23)new king@/b@c(50,35,20),
+
+ and his promised guidance...
+
+)	//------------------------------------------------------------------------
+
+//@MONE(
+
+//	ArchiveFrame00.mbs,
+
+//	ArchiveFrame00c.ftx, 
+
+//	LINE_004B,
+
+//	0,176
+
+//)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	ANNOTATION_03B	//紙束(古)+注釈
+
+	)
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_03B );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_03B_END );//前ページへ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_003_b,	0,0
+
+)	//禍々しい枠（文字数制限付）
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//終焉に関する予言に 三賢人の
+
+//示した説がある
+
+//これはその文献からの抜粋である
+
+//……三賢人がまとめた書物は、
+
+//今では手に入らない
+
+//あくまで予言に関する推測の域を
+
+//出ないと言及しておく
+
+//
+
+@TEXT(
+
+  The original manuscript
+
+  written by the Three Wise
+
+  Men has been lost to time.
+
+  It bears mentioning that
+
+  their theory is merely
+
+  conjecture, based on the
+
+  prophecy.
+
+)	//------------------------------------------------------------------------
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+

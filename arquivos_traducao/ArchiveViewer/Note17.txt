@@ -1,0 +1,342 @@
+@TITLE( 「プーカたちよ尻尾を立てろ！」 )
+
+@TITLE( "Pookas, Stand Your Tails High!" )
+
+//20151203: title has been changed
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//「ページ1」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_001_d,	0,0
+
+)	//タイタニア枠（赤・文字数制限付）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//
+
+//私たち@b@c(158,78,43)バレンタイン@/c@/bの民は国を失い、
+
+//呪われた姿となったが、地下にこもり
+
+//身を潜めているばかりではない
+
+//
+
+//『@b@c(158,78,43)魔法のコイン@/c@/bを全て集め呪いを解く』
+
+//
+
+//この悲願を叶えるため、
+
+//世界各地に散らばったコインを集めよう
+
+//と仲間たちは手を取り合って、
+
+//行商や出稼ぎに飛び回っているのだ
+
+//
+
+//
+
+//
+
+@TEXT(
+
+
+
+We citizens of @b@c(158,78,43)Valentine@/c@/b have
+
+lost both our land and our true
+
+forms... but we cannot live out
+
+our lives hiding belowground.
+
+
+
+"Collect all the @b@c(158,78,43)magic coins@/c@/b and
+
+lift the curse."
+
+
+
+To fulfill our wish, we have all
+
+banded together, and set out
+
+across the world to work, trade,
+
+barter and bargain...
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ2」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_001_d,	0,0
+
+)	//タイタニア枠（赤・文字数制限付）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//@b@c(158,78,43)魔王の国@/c@/bでは荒くれ者にお酌して回り、
+
+//@b@c(158,78,43)タイタニア@/c@/bではあこぎな商人に負けじと
+
+//物売り、@b@c(158,78,43)妖精国@/c@/bでは偏屈な妖精の下働き
+
+//を買ってでる……
+
+//
+
+//ケモノ姿の私たちが、身の不遇を嘆いて
+
+//いても始まらない
+
+//いつの日か、@b@c(158,78,43)コイン@/c@/bを集めて呪いを解き
+
+//王子、姫様と祖国を再興しようでは
+
+//ないか！
+
+//
+
+//これはもちろん@b@c(158,78,43)プーカ@/c@/b以外には秘密だ
+
+//
+
+//
+
+//
+
+@TEXT(
+
+
+
+Some serve ale to the barbarians
+
+of the @b@c(158,78,43)Demon Lord@/c@/b, some compete
+
+with greedy merchants plying their
+
+trade in @b@c(158,78,43)Titania@/c@/b, some sweat and
+
+toil for narrow-minded @b@c(158,78,43)Fairies@/c@/b...
+
+Our beastly looks may win us no
+
+favors, but we don't have the
+
+luxury of complaining. One day, we
+
+shall gather the coins to break
+
+this curse and revive our land
+
+with the royal heirs!
+
+This must be kept a @b@c(158,78,43)Pooka@/c@/b secret.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+//20151203: added the part about coins as it is important
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	ANNOTATION_03	//本+注釈
+
+	)
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_03 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_03_END );//前ページへ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_001_d,	0,0
+
+)	//タイタニア枠（赤・文字数制限付）
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//プーカたちが仲間に向けて書いた
+
+//士気高揚をうながす檄文だ
+
+//
+
+//一般的にバレンタインの民は国と
+
+//共に全滅したと考えられているが
+
+//彼らはプーカとなって生き残り、
+
+//国の再興に励んでいた
+
+//
+
+@TEXT(
+
+A manifesto written to boost
+
+the morale of the Pookas.
+
+The people of Valentine are
+
+commonly believed to have
+
+perished with their nation,
+
+but they survived as Pookas,
+
+and are working to revive it.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+

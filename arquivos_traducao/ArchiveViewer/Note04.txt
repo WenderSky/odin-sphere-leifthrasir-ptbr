@@ -1,0 +1,384 @@
+//@TITLE( 「羊のなる種」 )
+
+@TITLE( "The Origin of Sheep" )
+
+
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_a,	0,0
+
+)	//地味蔦枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_106,	0,-10
+
+)	//バロメッツの挿絵
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ00.mbs,	GUI/ArchiveOBJ00.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「種」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//異国から伝来した@b@c(158,78,43)バロメッツ@/c@/bは、かつて
+
+//『クヴェル博物誌』で風変わりな生物
+
+//として記された有名な植物である
+
+//
+
+//その特徴は、種を植えて育てると花や
+
+//　実の代わりに、なんと生きた羊が
+
+//　　生まれることだ
+
+@TEXT(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@b@c(158,78,43)Baromett@/c@/b is a plant from foreign lands,
+
+famously noted in the "Hverfell Book
+
+of Botany" for its most peculiar quality.
+
+
+
+Instead of flowers or fruit,
+
+it bears live sheep.
+
+
+
+)	//-----------------
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_b,	0,0
+
+)	//地味蔦枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_204,	0,0
+
+)	//バロメッツのスナップ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ00.mbs,	GUI/ArchiveOBJ00.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「種」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//　この植物羊は、生まれてまもなく
+
+//　その場から走って逃げる習性がある
+
+//　
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//　見失う前に手早くしとめれば、
+
+//　新鮮な@b@c(158,78,43)ラム肉@/c@/bを手に入れることが
+
+//　できよう
+
+
+
+@TEXT(
+
+
+
+These arboreal sheep tend to run
+
+away as soon as they are born.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hunt them before they escape,
+
+however, and you'll get some fresh
+
+@b@c(158,78,43)lamb chops@/c@/b for your trouble.     
+
+
+
+)	//------------------------------------------------------------------------
+
+//@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	LINE_002B,
+
+	0,170
+
+)	//※ここにバロメッツの挿絵
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ３」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_b,	0,0
+
+)	//地味蔦枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ00.mbs,	GUI/ArchiveOBJ00.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「種」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//　@b@c(158,78,43)バロメッツ@/c@/bの羊から取れる@b@c(158,78,43)ラム肉@/c@/bは、
+
+//　鶏肉とは比べものにならないほど
+
+//　栄養価が高く、料理店では高級食材
+
+//　として扱われる
+
+//
+
+//　@b@c(158,78,43)ラム肉@/c@/b料理を口にすれば、かけた
+
+//　手間暇に見合う価値を感じられる
+
+//　ことだろう
+
+//
+
+//　もし@b@c(158,78,43)バロメッツ@/c@/bの種を手にする機会
+
+//　があれば、大事に育てるとよい
+
+@TEXT(
+
+
+
+The lamb chops that come from
+
+Baromett are much more nutritious
+
+than chicken, and are considered
+
+to be high-class cuisine.
+
+
+
+A single taste of cooked @b@c(158,78,43)lamb@/c@/b,
+
+and you will instantly see that
+
+the effort required in its
+
+preparation is well worth it.
+
+
+
+If you manage to obtain a
+
+Baromett seed, raise it with care.
+
+
+
+
+
+)
+
+	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+

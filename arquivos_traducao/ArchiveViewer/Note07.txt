@@ -1,0 +1,514 @@
+// の後はコメントになる
+
+
+
+// タイトルの指定
+
+//@TITLE( 「エリオン大陸の通貨」 )
+
+@TITLE( "Currency of Erion" )
+
+
+
+// MONEのワク（開く・めくるなどのアニメに対応するもの）
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	BOOK_01		//本
+
+//	BOOK_02		//本＋注釈
+
+//	PAPER_01	//紙
+
+//	PAPER_02	//紙束
+
+//	PAPER_03	//便せん
+
+//	PAPER_04	//便せん束
+
+//	VELLUM_01	//羊皮紙
+
+//	VELLUM_02	//羊皮紙束
+
+	)
+
+
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+// ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+
+
+
+//  @c( r, g, b ) 〜 @/c         ： 文字の色を変化させる 0-255指定
+
+//
+
+//  @s( scale ) 〜 @/s 
+
+//  @s( scaleX, scaleY ) 〜 @/s  ： 文字のスケールを拡大（小数指定）
+
+//
+
+//  @i 〜 @/i                    ： 文字を傾ける（イタリック体…？斜体というより回転してる）
+
+//  @i( angle )  〜 @/i             2015-04-09 ohnishi 斜体になるようになおしました
+
+//                                             angleに角度を指定可能（デフォルトは１５度）
+
+//
+
+//  @b 〜@/b                     : ボールド（強調表示）
+
+//  @b( dot ) 〜 @/b             : dotで何ドットずらして重ねるか指定可能にした
+
+
+
+//  @x( n ) 〜 @/x               : 文字のＸ間隔を指定
+
+//  @y( n ) 〜 @/y               : 文字のＹ間隔を指定
+
+
+
+// ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+
+
+
+//1P================================================================================
+
+// ページ開始指定 PAGE_BEGINのたびに勝手に１、２とページが加算されます
+
+// 見開きでも「１ページ」なので注意
+
+//■勝手に解釈して空欄に挿絵を挟みました。１〜３ページで挿絵やオブジェクトの入りが全て左下になるため、２ページ目の挿絵は右に入れるなどの調整があっても良いのではないかと思いました（藤原）
+
+@PAGE_BEGIN
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_113,	0,0
+
+)	//上下枠
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_002,	0,-20
+
+)	//金貨
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ07.mbs,	GUI/ArchiveOBJ07.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「金貨」
+
+
+
+//----------------------------左ページ
+
+// MONEの中の何番目のコリジョンに書くかの指定 
+
+// 左ページ：０ / 右ページ：１ / 注釈：２ など
+
+@FRAME(0)
+
+// 文章本体
+
+//２３４５６７８９０１２３４５
+
+//
+
+//エリオン大陸には５種類の貨幣が
+
+//存在する
+
+//
+
+//そのうち、商人の間で通貨として
+
+//世界的に使われているのは
+
+//ラグナネイブル製の@b@c(158,78,43)ラグナ銀貨@/c@/b、
+
+//タイタニア製の@b@c(158,78,43)タイタン金貨@/c@/b、
+
+//　　　　　　　この２種類である
+
+//
+
+//
+
+//
+
+@TEXT(
+
+@s(0.95,0.96)
+
+There are five types of currency
+
+on the continent of Erion.
+
+
+
+The two currencies globally
+
+accepted by merchants are
+
+Ragnan Silver and Titanian
+
+Gold.
+
+@/s
+
+
+
+)
+
+
+
+//----------------------------右ページ
+
+@FRAME(1)
+
+// 文章本体
+
+//２３４５６７８９０１２３４５
+
+//
+
+//@b@c(158,78,43)ラグナ銀貨@/c@/bは数多く
+
+//流通し、刻印された
+
+//国の象徴ワタリガラ
+
+//スを見ぬ日はない
+
+//
+
+//　　　　　一方、先王の肖像が
+
+//　　　　　刻まれた@b@c(158,78,43)タイタン金貨@/c@/b
+
+//　　　　　は純度が高く、銀貨の
+
+//　　　　　十倍の価値を持つ
+
+//
+
+//
+
+@TEXT(
+
+@b@c(158,78,43)Ragnan Silver@/c@/b is a
+
+common favorite
+
+of the populace.
+
+The iconic raven
+
+is immediately recognizable.
+
+
+
+               @b@c(158,78,43)Titanian Gold@/c@/b,
+
+               embossed with the
+
+               profile of the
+
+               previous king, is
+
+               worth 10 Silvers.
+
+
+
+
+
+)
+
+
+
+//前回のように、右ページにコインの絵置けないか？試してみる
+
+
+
+//2P================================================================================
+
+@PAGE_BEGIN
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_113,	0,0
+
+)	//上下枠
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_003,	0,0
+
+)	//金貨
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ07.mbs,	GUI/ArchiveOBJ07.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「金貨」
+
+
+
+//----------------------------左ページ
+
+@FRAME(0)
+
+//２３４５６７８９０１２３４５
+
+//
+
+//残る３種類の貨幣は、今は亡き国
+
+//バレンタインで過去に発行された
+
+//硬貨で、現在では通貨とは認めら
+
+//れないものだ
+
+//
+
+//
+
+//
+
+@TEXT(
+
+The remaining three coins were
+
+minted by the fallen nation of
+
+Valentine. They are no longer
+
+accepted as tender.
+
+
+
+
+
+)
+
+
+
+//----------------------------右ページ
+
+@FRAME(1)
+
+//２３４５６７８９０１２３４５
+
+//
+
+//多くの民に愛されたという姫の姿
+
+//が刻印された@b@c(158,78,43)アリエル硬貨@/c@/b、
+
+//
+
+//権威ある王家の紋章を大きく
+
+//あしらった@b@c(158,78,43)バレンタイン金貨@/c@/b、
+
+//
+
+//そして、心臓のモチーフが一際
+
+//目を引く@b@c(158,78,43)バレンタイン記念硬貨@/c@/b、
+
+//この３種類だ
+
+//
+
+@TEXT(
+
+The @b@c(158,78,43)Ariel Coin@/c@/b bears a
+
+relief in the likeness of
+
+Valentine's beloved princess.
+
+
+
+The @b@c(158,78,43)Valentinian Gold@/c@/b is
+
+branded with the royal crest.
+
+
+
+The @b@c(158,78,43)Commemorative Coin@/c@/b
+
+has a striking heart motif
+
+to its design.
+
+
+
+)
+
+
+
+
+
+//3P================================================================================
+
+@PAGE_BEGIN
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_113,	0,0
+
+)	//上下枠
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ07.mbs,	GUI/ArchiveOBJ07.ftx,	OBJ_01,	0,0
+
+)	//オブジェクト「金貨」
+
+
+
+//----------------------------左ページ
+
+@FRAME(0)
+
+//２３４５６７８９０１２３４５
+
+//
+
+//バレンタインの硬貨は、今や幻と
+
+//なった魔法文明の息吹を感じさせ
+
+//る希少な美術品として、好事家の
+
+//間で取引されている
+
+//
+
+//そのため、一般的な取引の場で
+
+//　　　取り扱われることはない
+
+@TEXT(
+
+Collectors now prize the
+
+coins of Valentine as works
+
+of art from a now-defunct
+
+magic civilization.
+
+
+
+Consequently, they are not
+
+used for common purchases
+
+and transactions.
+
+)
+
+
+
+
+
+//----------------------------右ページ
+
+@FRAME(1)
+
+//２３４５６７８９０１２３４５
+
+//
+
+//しかし、
+
+//近年さかんな商業活動が目立つ
+
+//獣人のプーカ族にはバレンタイン
+
+//の硬貨を好むという噂がある
+
+//
+
+//もし幸運にも硬貨を手にしている
+
+//ならば、彼らとの取引の際には
+
+//有力な品となるかもしれない
+
+//
+
+//
+
+//
+
+//
+
+@TEXT(
+
+@s(0.93,0.96)However, there is a rumor that
+
+Pookas, who have recently become
+
+more active in trade, favor
+
+Valentinian coins.
+
+
+
+If you manage to obtain some,
+
+it might be a valuable asset
+
+when bartering with them.
+
+@/s
+
+
+
+
+
+)
+
+
+

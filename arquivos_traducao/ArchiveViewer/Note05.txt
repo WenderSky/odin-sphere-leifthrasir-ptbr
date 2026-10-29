@@ -1,0 +1,392 @@
+//@TITLE( 「マンドラゴラについて」 )
+
+@TITLE( "Mandragoras" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_a,	0,0
+
+)	//地味蔦枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_201,	0,0
+
+)	//マンドラゴラ1
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//大陸に広く自生する@b@c(158,78,43)マンドラゴラ@/c@/bは、
+
+//『歩く植物』という特色とともに、
+
+//薬効があることが知られており、
+
+//料理の食材やマジックミックスの素材に
+
+//よく用いられる
+
+//
+
+//中でも人気のある５種の@b@c(158,78,43)マンドラゴラ@/c@/bは
+
+//それぞれに特性を備えている
+
+//
+
+//
+
+//　　　　　@b@c(158,78,43)カロッチオ@/c@/bは滋養に富み、傷
+
+//　　　　　を癒やす薬の素となるため、
+
+//　　　　　常備しておきたいマンドラゴ
+
+//　　　　　ラのひとつだ
+
+//
+
+@TEXT(
+
+@b@c(158,78,43)Mandragoras@/c@/b grow all around the land.
+
+These "walking plants" make fine
+
+additions to many recipes, whether
+
+culinary or alchemical.
+
+
+
+The five most well-known Mandragoras
+
+each have their own unique
+
+characteristics.
+
+
+
+
+
+
+
+             @b@c(158,78,43)Carroteer@/c@/b: Full of
+
+             nutrients, these are the
+
+             base of healing potions.
+
+
+
+)
+
+
+
+	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	LINE_005B,
+
+	0,360
+
+)	//間仕切り
+
+
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_b,	0,0
+
+)	//地味蔦枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_202,	0,0
+
+)	//マンドラゴラ2
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//　　　　　@b@c(158,78,43)オニオンヌ@/c@/bは幸運を呼び邪気
+
+//　　　　　を払う効果があるとされ、お
+
+　　　　　//まじないや魔除けに使われる
+
+//
+
+//@b@c(158,78,43)トリカブ@/c@/bの表皮には毒素が含
+
+//まれ、毒薬の素になったり、
+
+//弱めた毒素からは解毒剤が作
+
+//られる
+
+//
+
+//　　　　　@b@c(158,78,43)ターニー@/c@/bは寒さに強い植物で、
+
+//　　　　　ものを冷やす不思議な効能が
+
+//　　　　　あるため冷たいスープを作る
+
+//　　　　　際にも用いられる
+
+//
+
+@TEXT(
+
+
+
+              @b@c(158,78,43)Onionne@/c@/b: Brings luck and
+
+              wards off evil. They are
+
+              used in charms.
+
+
+
+@b@c(158,78,43)Cubsbane@/c@/b: Its venomous
+
+skin is used for making
+
+both poisons and
+
+antidotes.
+
+
+
+
+
+               @b@c(158,78,43)Turny@/c@/b: Resistant to the
+
+               cold. Their natural
+
+               cooling effect is used
+
+               in making cold soups.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ３」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_b,	0,0
+
+)	//地味蔦枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_203,	0,0
+
+)	//マンドラゴラ3
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//
+
+//　@b@c(158,78,43)ハバニール@/c@/bは火山原産で
+
+//　気性が荒く、香辛料とし
+
+//　て使うと一欠片で喉が焼
+
+//　けるような辛さが味わえる
+
+//
+
+//
+
+//　どの@b@c(158,78,43)マンドラゴラ@/c@/bも利便性が高く、
+
+//　さまざまな使い道がある
+
+//　採集したら、ぜひその効果を覚えて
+
+//　役立ててほしい
+
+//
+
+//
+
+@TEXT(
+
+
+
+
+
+
+
+@b@c(158,78,43)Habaneristo@/c@/b: They grow at
+
+volcanoes, and are used
+
+in incredibly spicy foods.
+
+
+
+
+
+
+
+All Mandragoras have their uses.
+
+When you find one, remember
+
+their effects and ensure you make
+
+good use of them.
+
+
+
+
+
+)
+
+
+
+	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	LINE_005B,
+
+	0,270
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+

@@ -1,0 +1,344 @@
+//@TITLE( 「バロールを作ったドワーフたち」 )
+
+@TITLE( "The Dwarves Who Forged Balor" )
+
+
+
+// MONEのワク（開く・めくるなどのアニメに対応するもの）
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ01.mbs,	GUI/ArchiveOBJ01.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「サイファー片」
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_002,	0,0
+
+)	//リングフォールド風
+
+
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+// 先代の@b@c(158,78,43)妖精女王@/c@/bを死に至らしめた
+
+ //@b@c(158,78,43)魔王@/c@/bの忌まわしき武器@b@c(158,78,43)バロール@/c@/bは、
+
+ //最大最強の@b@c(158,78,43)サイファー@/c@/bとして、
+
+ //その脅威を世界に知らしめている
+
+//
+
+// サイファーの元となる魔石の加工の
+
+// 難しさは、その質量に比例する
+
+//
+
+//魔石加工の第一人者にして、
+
+//我が種族随一の@b@c(158,78,43)鍛冶師ブロム@/c@/bであっても
+
+//あれほど巨大な代物を拵えるのは
+
+//至難の業であろう
+
+//
+
+//
+
+@TEXT(
+
+Among all @b@c(158,78,43)Psyphers@/c@/b, the largest
+
+and most fearsome is the one that
+
+struck down the previous @b@c(158,78,43)Queen@/c@/b:
+
+the flail @b@c(158,78,43)Balor@/c@/b, loathsome weapon
+
+of the @b@c(158,78,43)Demon Lord@/c@/b.
+
+
+
+The greater the Psypher, the more
+
+difficult the process of refining
+
+and forging its arcane jewel.
+
+
+
+Even @b@c(158,78,43)Brom@/c@/b, our first and finest
+
+Lilliput Psypher blacksmith, would
+
+falter at forging a weapon so large.
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+//「ページ2」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ01.mbs,	GUI/ArchiveOBJ01.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「サイファー片」
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_002,	0,0
+
+)	//リングフォールド風
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//@b@c(158,78,43)魔王軍@/c@/bにとっても、@b@c(158,78,43)バロール@/c@/bの開発は
+
+//国を挙げて行われた一大事業であり、
+
+//資源と人材が惜しまず投入されたという
+
+//
+
+//そして、この計画の中核を担い
+
+//実現に導いたのは、あろうことか
+
+//@b@c(158,78,43)ラグナネイブル@/c@/bに属するかつての同胞、
+
+//@b@c(158,78,43)ドワーフ@/c@/bの@b@c(158,78,43)サイファー@/c@/b職人たちであった
+
+//
+
+//彼らはかつて、@b@c(158,78,43)妖精族@/c@/bとの争いの最中、
+
+//混乱に乗じて近づいた@b@c(158,78,43)魔王@/c@/bの口車に乗り、
+
+//魔王の国へと鞍替えした一派である
+
+//
+
+//
+
+//
+
+//
+
+//
+
+@TEXT(
+
+To @b@c(158,78,43)Aesir@/c@/b, the development of Balor
+
+was a national undertaking, and no
+
+resource or manpower was spared.
+
+
+
+And at the heart of the project,
+
+of all people, were the @b@c(158,78,43)Dwarves@/c@/b;
+
+our ex-comrades of @b@c(158,78,43)Ragnanival@/c@/b.
+
+
+
+While at war with the @b@c(158,78,43)Fairies@/c@/b,
+
+they were swayed by the @b@c(158,78,43)Demon
+
+Lord@/c@/b's honeyed words.
+
+
+
+
+
+
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+//「ページ３」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ01.mbs,	GUI/ArchiveOBJ01.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「サイファー片」
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_002,	0,0
+
+)	//リングフォールド風
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//@b@c(158,78,43)ドワーフ@/c@/bらは祖先より受け継ぐ鍛冶の
+
+//腕を存分に振るい、世界に類を見ない
+
+//最強の@b@c(158,78,43)サイファー@/c@/bを作りだすに至った
+
+//
+
+//一方、@b@c(158,78,43)妖精女王@/c@/bに忠誠を誓い@b@c(158,78,43)リリパット@/c@/b
+
+//と名を変えた我らといえば、
+
+//鍛冶を禁じられ、鍛冶場には蜘蛛の巣が
+
+//張るばかりだ
+
+//
+
+//この有様で、はたして@b@c(158,78,43)バロール@/c@/bを有する
+
+//@b@c(158,78,43)魔王軍@/c@/bに勝利する事ができるのだろうか
+
+//
+
+//
+
+//
+
+@TEXT(
+
+With their smithing expertise, the
+
+Dwarves created a Psypher
+
+unparalleled in its power.
+
+
+
+Inversely, after vowing loyalty to
+
+the @b@c(158,78,43)Fairy Queen@/c@/b and changing our
+
+people's name to @b@c(158,78,43)Lilliput@/c@/b, we were
+
+forbidden from smithing anything,
+
+and our furnaces were quenched.
+
+
+
+Will we ever be able to defeat
+
+the Aesir and their mighty Balor
+
+in such a state?
+
+
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+

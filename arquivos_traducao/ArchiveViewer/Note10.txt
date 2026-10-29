@@ -1,0 +1,472 @@
+//@TITLE( 「コルドロン戦争の始まり」 )
+
+@TITLE( "The Start of the Cauldron War" )
+
+
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	BOOK_01	//本
+
+	)
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_101,	0,0
+
+)	//汎用枠
+
+
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//我が@b@c(158,78,43)ラグナネイブル@/c@/bが、@b@c(158,78,43)妖精国@/c@/bと
+
+//戦火を交えるに至った発端は、
+
+//過去の因縁にあった
+
+//
+
+//
+
+//
+
+//当時、大国@b@c(158,78,43)バレンタイン@/c@/bとの戦に
+
+//勝利した我らは、
+
+//代償に多くの兵や資源を失い、
+
+//本営への後退を余儀なくされた
+
+//
+
+//
+
+@TEXT(
+
+
+
+The source of the conflict
+
+between our grand kingdom
+
+of Ragnanival and Ringford
+
+lies in the past.
+
+
+
+Our victory over the mighty
+
+nation of @b@c(158,78,43)Valentine@/c@/b was
+
+assured, but costly. Low on
+
+men and supplies, we had
+
+no choice but to withdraw.
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	CUE_002A,
+
+	0,220
+
+)	//間仕切り
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//卑しい妖精軍はその隙に乗じて
+
+//バレンタインの地に介入し、
+
+//我らの戦利品であった@b@c(158,78,43)結晶炉@/c@/bを
+
+//盗み取ったのだ
+
+//
+
+//結晶炉コルドロンとは、魔素を
+
+//無尽蔵に得られる魔法の釜であり
+
+//これこそ、疲弊した我が国に
+
+//必要な宝であった
+
+//
+
+@TEXT(
+
+
+
+Those vile @b@c(158,78,43)Fairies@/c@/b seized
+
+their chance to invade
+
+Valentine and steal our
+
+prize: the @b@c(158,78,43)Cauldron@/c@/b.
+
+
+
+The Cauldron is an artifact
+
+that can create infinite
+
+Phozons. After all we've
+
+sacrificed, such a relic
+
+is rightfully ours!
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	BOOK_01	// 注釈からこのページに戻るときに情報が必要なため仕込みます
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_101,	0,0
+
+)	//汎用枠
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//@b@c(158,78,43)妖精国@/c@/bの許されざる大罪に、
+
+//我らの怒りは国中に響き渡った
+
+//
+
+//先の戦争で犠牲となった英霊達
+
+//のためにも、再び立ち上がり
+
+//妖精達へ鉄槌を下すと誓ったのだ
+
+//
+
+//そして我らは@b@c(158,78,43)オーダイン@/c@/b王の
+
+//采配に従い、長らく報復の牙を
+
+//研いできた
+
+//
+
+//
+
+@TEXT(
+
+Anger at the Fairies'
+
+treacherous deed echoed
+
+throughout the country.
+
+
+
+For the sake of our fallen
+
+brethren, we vowed to rise
+
+again and punish the Fairies.
+
+
+
+Led by King @b@c(158,78,43)Odin@/c@/b, we have
+
+long awaited our revenge,
+
+sharpening our fangs...
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//王妃の忘れ形見である
+
+//@b@c(158,78,43)グリゼルダ@/c@/b様と@b@c(158,78,43)グウェンドリン@/c@/b様
+
+//も、いまやワルキューレの精鋭と
+
+//なるまでに育ち、
+
+//戦場でのご活躍が期待される
+
+//
+
+//戦の準備は万全だ、
+
+//今こそ妖精軍に一矢報い、
+
+//@b@c(158,78,43)結晶炉@/c@/bを取り戻すときである
+
+//
+
+@TEXT(
+
+
+
+Princesses @b@c(158,78,43)Griselda@/c@/b and
+
+@b@c(158,78,43)Gwendolyn@/c@/b, the daughters of
+
+the late queen, are now
+
+skilled Valkyries.
+
+
+
+The time has come for war.
+
+We will wreak our
+
+vengeance on the Fairies,
+
+and reclaim our Cauldron!
+
+
+
+)	//------------------------------------------------------------------------
+
+
+
+
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	ANNOTATION_06	//本+注釈
+
+	)
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_06 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_06_END );//前ページへ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_101,	0,0
+
+)	//汎用枠
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(1)
+
+
+
+
+
+@FRAME(2)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+
+
+//□□□□□□□□□□□□□□
+
+//魔王軍の兵士が記した手記だ
+
+//妖精軍への雪辱を果たすため、
+
+//戦争に向かう兵士の差し迫った
+
+//心情が見てとれる
+
+//後の会戦では第一王女グリゼルダ
+
+//が戦死し、魔王軍は敗北を喫する
+
+//ことになった
+
+//
+
+@TEXT(
+
+This memoir shows the
+
+mindset of an Aesir soldier.
+
+In the battle that occurred
+
+after this note, the Aesir
+
+suffered a crushing defeat
+
+that ended with the death of
+
+the first princess.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+

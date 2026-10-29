@@ -1,0 +1,360 @@
+//@TITLE( 「マジックミックス」 )
+
+@TITLE( "Alchemy" )
+
+
+
+// MONEのワク（開く・めくるなどのアニメに対応するもの）
+
+	@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00f.ftx, 
+
+	BOOK_01	//本
+
+	)
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00f.ftx,	CUT_B01_101,	0,0
+
+)	//汎用枠
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00f.ftx,	CUT_B01_000,	0,0
+
+)	//挿絵
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ02.mbs,	GUI/ArchiveOBJ02.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「フラスコ」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+@TEXT(
+
+
+
+
+
+
+
+
+
+
+
+
+
+)	//間仕切り
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//エリオンに古くから伝わる魔術
+
+//のひとつに、瓶の中で魔法を生
+
+//み出す@b@c(158,78,43)マジックミックス@/c@/bという
+
+//ものがある
+
+//
+
+//魔法の素となる液体、@b@c(158,78,43)マテリアル@/c@/b
+
+//に様々な物質を混ぜあわせる、
+
+//たったそれだけで、魔法の薬を
+
+//作り出せるのだ
+
+//
+
+@TEXT(
+
+
+
+In Erion, there is a method
+
+passed down through the
+
+ages known as @b@c(158,78,43)alchemy@/c@/b,
+
+a means by which magic may
+
+be created within a bottle.
+
+
+
+Simply dissolve various
+
+items into special liquids
+
+called @b@c(158,78,43)materials@/c@/b in
+
+order to create these
+
+magical concoctions.
+
+
+
+
+
+)	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00f.ftx, 
+
+	LINE_004A,
+
+	0,260
+
+)	//挿絵「仕切り」
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00f.ftx, 
+
+	BOOK_01		//本
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00f.ftx,	CUT_B01_101,	0,0
+
+)	//挿絵「汎用枠」
+
+
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ02.mbs,	GUI/ArchiveOBJ02.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「フラスコ」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//@b@c(158,78,43)マジックミックス@/c@/bにより作られる
+
+//魔法薬の種類は多岐にわたる
+
+//
+
+//傷を癒す薬や、毒の中和剤、
+
+//竜巻を起こす魔法に、岩をも
+
+//砕く爆薬など…
+
+//
+
+//どの魔法薬が作り出せるかは
+
+//@b@c(158,78,43)マテリアル@/c@/bに混ぜる素材で決まる
+
+//
+
+@TEXT(
+
+
+
+Many different potions can
+
+be brewed through careful
+
+application of alchemy.
+
+
+
+Healing potions, antidotes,
+
+tornado magic, or even
+
+explosives...
+
+
+
+Your choice of ingredients
+
+to mix with the material
+
+will determine the outcome.
+
+
+
+)	//------------------------------------------------------------------------
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□
+
+//
+
+//素材と魔法の関係性を知るには
+
+//自らの手で調合を試すことが
+
+//一番の近道だが、
+
+//
+
+//確かな調合方法を知りたいなら、
+
+//魔法の@b@c(158,78,43)レシピ@/c@/bを集めることも
+
+//ひとつの手段であろう
+
+//
+
+//
+
+//
+
+@TEXT(
+
+
+
+The quickest way to learn
+
+the relationship between
+
+ingredients and magic is to
+
+try mixing for yourself.
+
+
+
+However, if you seek a
+
+certain formula, you should
+
+collect magic @b@c(158,78,43)recipes@/c@/b.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

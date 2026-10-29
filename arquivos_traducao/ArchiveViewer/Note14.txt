@@ -1,0 +1,326 @@
+//@TITLE( 「亡国の生き残りの噂」 )
+
+@TITLE( "Royal Survivors of Valentine" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_000_c,	0,0
+
+)	//かすれた枠（タイタニア風）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//@b@c(158,78,43)タイタニア@/c@/bの北部、@b@c(158,78,43)魔王の国@/c@/bとの国境
+
+//の森から美しい古城が見えるが、
+
+//あそこに近づくのは止した方がいい
+
+//
+
+//なんでも昔は、病に臥せた魔王の妃に
+
+//用意された離宮だったらしいが、
+
+//妃亡き今、あの古城近くで
+
+//災厄で滅びた@b@c(158,78,43)バレンタイン@/c@/bの王子と姫、
+
+//双子の兄妹の姿を見た者がいるのだ
+
+//
+
+//廃墟の中、唯二人生き残った幼い彼らは
+
+//敵であった@b@c(158,78,43)魔王軍@/c@/bに救い出されたらしい
+
+//
+
+//
+
+@TEXT(
+
+North of @b@c(158,78,43)Titania@/c@/b, in the woods
+
+close to the border of the @b@c(158,78,43)Demon
+
+Lord's kingdom@/c@/b, there is an old
+
+and decrepit castle. However,
+
+you must not draw near it.
+
+
+
+It was once a villa for the sickly
+
+wife of the Demon Lord, but the
+
+prince and princess of @b@c(158,78,43)Valentine@/c@/b
+
+have been recently sighted there.
+
+They say the young survivors
+
+were spared by the @b@c(158,78,43)Aesir@/c@/b.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束※注釈の前項にはテンプレートの再指定
+
+	)
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_000_c,	0,0
+
+)	//かすれた枠（タイタニア風）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//しかし、@b@c(158,78,43)バレンタイン@/c@/b人といえば、
+
+//恐ろしい魔力を武器に、ウチの国にも
+
+//攻め込んだことのある罪深い民族だ
+
+//
+
+//悪の魔法使いの血筋ならば、生かされた
+
+//恩を仇で返そうと、得意の魔術で人を
+
+//呪ってもおかしくはない
+
+//
+
+//近頃、あの森で@b@c(158,78,43)コルネリウス@/c@/b王子の姿を
+
+//よくお見かけするらしい
+
+//あのお人好しの王子様のことだ、
+
+//騙されて呪われなければよいが…
+
+//
+
+@TEXT(
+
+
+
+But everyone knows @b@c(158,78,43)Valentinians@/c@/b
+
+are blackguards who used their
+
+fearsome magic to invade our land.
+
+
+
+Vicious magi like them only know
+
+to bite the hand that feeds them.
+
+
+
+I hear @b@c(158,78,43)Prince Cornelius@/c@/b is seen
+
+there often. He is a gentle young
+
+man; I hope he does not fall prey
+
+to their wiles...
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+//20151203 dogs → magi (magi is the important stress here)
+
+
+
+
+
+
+
+
+
+//「注釈」========================================================================
+
+@PAGE_BEGIN
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	ANNOTATION_03	//本+注釈
+
+	)
+
+@MONE_TEMPLATE_ANIME_PAGENEXT( ANNOTATION_03 );  // 次ページへ
+
+@MONE_TEMPLATE_ANIME_PAGEBACK( ANNOTATION_03_END );//前ページへ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_000_c,	0,0
+
+)	//かすれた枠（タイタニア風）
+
+
+
+@ANNOTATION(7) // 注釈の影をプリレンダを避けて別個で描画するためのコマンド
+
+
+
+// 前回の情報を維持します
+
+@KEEPFRAME(0)
+
+
+
+
+
+@FRAME(1)	//２つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+@FRAMEPRIO(1)
+
+@FONT_NUM_X(15)   // 並ぶ文字の数（注釈は１５文字×８行）
+
+@FONT_NUM_Y(9)   // 並ぶ文字の数
+
+//□□□□□□□□□□□□□□
+
+//@b@c(158,78,43)タイタニア@/c@/b城下町の民に広まる
+
+//噂話を書き記したものだ
+
+//かつて強大な魔力で各国を侵略
+
+//したバレンタインは、多くの人々
+
+//にとっていまだ危険な存在であり
+
+//その生き残りに対する風当たりは
+
+//厳しい
+
+//
+
+//
+
+@TEXT(
+
+This note contains rumors
+
+circulating in Titania.
+
+Valentine is still considered
+
+dangerous by many, and even
+
+the survivors are not spared
+
+public suspicion.
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+

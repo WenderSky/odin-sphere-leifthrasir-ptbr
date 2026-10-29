@@ -1,0 +1,101 @@
+================================================================================
+ TRADUÇÃO EM PORTUGUÊS DO BRASIL (PT-BR) - ODIN SPHERE: LEIFTHRASIR (RECOMP PC)
+================================================================================
+ Versão 1.0 - Tradução por Wender_sky (Steam)
+ https://github.com/WenderSky/odin-sphere-leifthrasir-ptbr
+
+ Tradução amadora, pode conter erros. Uso gratuito e não-comercial
+ (veja LICENSE.txt).
+
+Esta tradução é para a versão PC / Steam Deck recompilada de Odin Sphere:
+Leifthrasir (github.com/saulob/odin-sphere-leifthrasir-pc).
+  - Versão europeia (CUSA05262), 1.00 ou 1.01: testada.
+  - Versão americana (CUSA05083): deve funcionar, mas não foi testada. O
+    instalador confere cada arquivo e deixa em inglês os que forem diferentes.
+  - Versão japonesa: não suportada (não tem os textos em inglês).
+
+O que está traduzido:
+  - Diálogos da história dos 5 personagens, prólogos, epílogos e descansos
+  - Menus, interface, opções, mapas e tutoriais
+  - Habilidades Psypher e magias, itens, receitas de alquimia, sementes e
+    pratos do Pooka Café e do restaurante
+  - Livros da biblioteca do sótão da Alice
+  - Modo Clássico (a versão original do jogo, incluída no Leifthrasir)
+  - Letras ã, õ, Ã, Õ e Â, que a fonte do jogo não tinha
+
+Não traduzido: textos desenhados em imagens (logos, títulos, alguns botões)
+e as vozes.
+
+--------------------------------------------------------------------------------
+ REQUISITO: PYTHON 3
+--------------------------------------------------------------------------------
+O instalador é um script Python (sem bibliotecas extras).
+  - Windows: instale em https://www.python.org/downloads/ e marque
+    "Add python.exe to PATH" na instalação.
+  - Steam Deck / Linux: o python3 já vem instalado.
+
+--------------------------------------------------------------------------------
+ COMO INSTALAR NO WINDOWS
+--------------------------------------------------------------------------------
+1. Feche o jogo e o launcher.
+2. Dê dois cliques em "instalar_traducao_windows.bat".
+   O instalador procura o jogo sozinho (ele acha mais fácil se esta pasta
+   estiver dentro da pasta do jogo). Se não encontrar, ele pede o caminho:
+   arraste a pasta do jogo (a que tem o "odin_sphere_leifthrasir.exe" e a
+   pasta "game") para a janela e tecle Enter. Você também pode arrastar a
+   pasta do jogo direto em cima do .bat.
+3. Abra o jogo normalmente pelo "odin_sphere_leifthrasir.exe", com o idioma
+   em English (padrão). O jogo aparecerá em português.
+
+--------------------------------------------------------------------------------
+ COMO INSTALAR NO STEAM DECK / LINUX
+--------------------------------------------------------------------------------
+1. No Modo Desktop, copie esta pasta para o Deck.
+2. Abra um terminal nessa pasta e execute:
+     chmod +x instalar_traducao_linux.sh
+     ./instalar_traducao_linux.sh
+   (ou ./instalar_traducao_linux.sh "/caminho/da/pasta/do/jogo")
+
+Se você copiar para o Deck uma pasta do jogo que já está traduzida no PC, a
+tradução vai junto: não precisa instalar de novo.
+
+--------------------------------------------------------------------------------
+ DESINSTALAR
+--------------------------------------------------------------------------------
+Execute "desinstalar_traducao_windows.bat" (ou "desinstalar_traducao_linux.sh").
+Os arquivos Odin2_RE_UK.CPK, Odin2_BT_UK.CPK e Odin2_OR_UK.CPK voltam
+exatamente ao que eram antes da tradução.
+
+--------------------------------------------------------------------------------
+ COMO FUNCIONA / ATUALIZAÇÕES
+--------------------------------------------------------------------------------
+- Os arquivos traduzidos são anexados ao fim dos CPKs e o índice (TOC) passa a
+  apontar para eles. Nenhum dado original é apagado; o índice original fica
+  guardado em "<nome do CPK>.ptbr.undo", ao lado do jogo. Não apague esses
+  arquivos se quiser poder desinstalar.
+- As letras com til são desenhadas sobre a fonte do seu próprio jogo: o pacote
+  só leva os pedaços da imagem que mudam, nenhum arquivo do jogo.
+- Para instalar uma versão nova da tradução, rode o instalador de novo: ele
+  substitui a anterior sem aumentar o tamanho do jogo.
+- Se você reinstalar ou atualizar o jogo pelo launcher, rode o instalador de
+  novo.
+
+--------------------------------------------------------------------------------
+ BOTÕES DE XBOX (Controller prompts no launcher)
+--------------------------------------------------------------------------------
+A opção de botões de Xbox do launcher também modifica os CPKs.
+  - Se os botões de Xbox já estavam ativos quando a tradução foi instalada,
+    pode usar normalmente. Voltar para PlayStation no launcher remove a
+    tradução: basta rodar o instalador de novo.
+  - Se a tradução foi instalada ANTES de escolher os botões de Xbox, a
+    tradução continua. Para desinstalar a tradução nesse caso, volte antes os
+    botões para PlayStation no launcher (o desinstalador avisa).
+
+--------------------------------------------------------------------------------
+ ALEMÃO E ESPANHOL
+--------------------------------------------------------------------------------
+As letras ã, õ, Ã, Õ e Â foram desenhadas no lugar de ä, ö, Ä, Ö e Ñ, que o
+português não usa. Por isso, com a tradução instalada, os idiomas alemão e
+espanhol do jogo mostrariam til no lugar do trema e do Ñ. Desinstalar volta
+tudo ao original.
+================================================================================

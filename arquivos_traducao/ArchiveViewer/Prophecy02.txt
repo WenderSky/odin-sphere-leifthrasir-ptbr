@@ -1,0 +1,142 @@
+//@TITLE( 「母の手記」 )
+
+@TITLE( "Mother's Note" )
+
+//(ベルベット編序章ドラマにて入手])
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_03	//便箋
+
+	)
+
+
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「母の手記」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT2, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	OBJ_10,	0,0
+
+)	//スポットライト（白）
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_010,	0,0
+
+)	//上下細枠
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ04.mbs,	GUI/ArchiveOBJ04.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「封筒」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+
+
+//
+
+//　我が子らよ
+
+//
+
+//
+
+//　　いずれ逃れられぬ呪いと死が
+
+//　　二人に降りかかる
+
+//
+
+//
+
+//　　コルドロンは最後の結晶で導く
+
+//　　避けられぬ終焉に
+
+//
+
+@TEXT(
+
+
+
+My dear children,
+
+
+
+Eventually, an inevitable curse and
+
+death shall be thrown upon the two
+
+of you.
+
+
+
+The Cauldron guides the way to
+
+Armageddon with its final stone.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+
+

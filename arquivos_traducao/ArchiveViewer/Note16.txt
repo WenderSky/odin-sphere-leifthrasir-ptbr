@@ -1,0 +1,360 @@
+//@TITLE( 「さすらいの料理人モーリィでございます」 )
+
+@TITLE( "Maury, the Wandering Chef" )
+
+
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+
+
+@PAGE_BEGIN
+
+
+
+//@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_207,	0,0
+
+)	//モーリィ
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_114,	0,0
+
+)	//挿絵 モーリィの挿絵
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ03.mbs,	GUI/ArchiveOBJ03.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「モーリィのベル」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//
+
+//僕の名前は@b@c(158,78,43)モーリィ@/c@/b、料理修行の旅を
+
+//続けるプーカの料理人でございます
+
+//
+
+//そのかたわら、お呼びが掛かれば
+
+//出向いて料理をふるまう出張レストラン
+
+//も営んでおります
+
+//
+
+@TEXT(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My name is @b@c(158,78,43)Maury@/c@/b. I am a Pooka
+
+chef, traveling the world to hone
+
+and perfect my cooking skills.
+
+I also run a touring restaurant,
+
+serving the finest fare wherever
+
+there are hungry travelers in need.
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ03.mbs,	GUI/ArchiveOBJ03.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「モーリィのベル」
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_001_c,	0,0
+
+)	//タイタニア枠（赤・かすれ）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//ただ、僕には料理人として決定的な
+
+//問題があります…それは
+
+//料理のレパートリーが少ないことです
+
+//
+
+//そこで、このチラシをご覧の皆様に
+
+//お願いがございます！
+
+//
+
+//このエリオンの各地には、様々な料理の
+
+//@b@c(158,78,43)レシピ@/c@/bが点在するという噂を聞きました
+
+//
+
+//もし、料理のレシピを見つけたら、
+
+//ぜひ僕にお譲りいただきたいのです！
+
+//
+
+@TEXT(
+
+
+
+The problem is... my menu is what
+
+you might call somewhat lacking
+
+in variety.
+
+
+
+So, gentle reader of this flyer:
+
+I would humbly ask a favor!
+
+
+
+I have heard that there are many
+
+@b@c(158,78,43)recipes@/c@/b scattered across Erion.
+
+
+
+If you run across any recipes of
+
+culinary import, please... allow me
+
+to take them!
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ３」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ03.mbs,	GUI/ArchiveOBJ03.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「モーリィのベル」
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_001_c,	0,0
+
+)	//タイタニア枠（赤・かすれ）
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//もちろん、タダでとは申しません！
+
+//
+
+//@b@c(158,78,43)レシピ@/c@/bと、それに書かれた@b@c(158,78,43)材料@/c@/bをお持ち
+
+//であればすぐに僕をお呼び下さい
+
+//
+
+//各地に備え付けられた@b@c(158,78,43)魔法の呼び鈴@/c@/bを
+
+//チリンと一回鳴らしてくだされば、
+
+//プーカ自慢の魔法でどこへでも駆け
+
+//つけてみせます
+
+//
+
+//お持ちの@b@c(158,78,43)食材@/c@/bを使った、おいしい料理
+
+//をご馳走させていただきますよ！
+
+//
+
+@TEXT(
+
+
+
+Not without reward, of course!
+
+
+
+If you obtain a recipe and the
+
+@b@c(158,78,43)ingredients@/c@/b listed on it, please 
+
+summon me immediately.
+
+
+
+You only need ring one of the
+
+@b@c(158,78,43)magic bells@/c@/b I've set up across the
+
+land, and I shall be there in a
+
+trice with my Pooka magic.
+
+
+
+I will do my utmost to make you a
+
+delicious meal with whatever you
+
+may bring!
+
+
+
+)	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+

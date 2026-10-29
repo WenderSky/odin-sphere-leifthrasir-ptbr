@@ -1,0 +1,254 @@
+//@TITLE( 「果樹栽培のすすめ」 )
+
+@TITLE( "Cultivating Fruit" )
+
+// MONEの下地
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	PAPER_02	//紙束
+
+	)
+
+@FONT_SIZE_X(24)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(35)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(18)   // 並ぶ文字の数（紙は１８文字×１４行）
+
+@FONT_NUM_Y(16)   // 並ぶ文字の数
+
+
+
+
+
+
+
+
+
+
+
+//「ページ１」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_a,	0,0
+
+)	//汎用枠2
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ00.mbs,	GUI/ArchiveOBJ00.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「種」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//フォゾンを吸って育つエリオンの植物
+
+//は荒れた土地でも芽を出すほど、
+
+//たくましい生命力を備えている
+
+//
+
+//その果実はまさに生命の実、食べれば
+
+//血肉となって生命力を高める効能は
+
+//長寿の秘訣として誰もが欲するものだ
+
+//
+
+//果実の恩恵を得たけれ
+
+//ば、種を手に入れ栽培
+
+//する事をすすめる 
+
+@TEXT(
+
+
+
+The Phozon-absorbing plants of
+
+Erion can sprout in even in the most
+
+desolate of lands.
+
+
+
+Theirs is the fruit of life, giving
+
+vitality to those who partake.
+
+It is the secret to longevity.
+
+
+
+If you wish to reap
+
+the benefits of the
+
+fruit, you need only
+
+find seeds and grow
+
+them for yourself.
+
+
+
+
+
+)
+
+	//------------------------------------------------------------------------
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00c.ftx, 
+
+	CUT_107,
+
+	280,380
+
+)	//蔦
+
+
+
+
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+
+
+
+
+
+
+
+
+
+
+
+//「ページ２」====================================================================
+
+@PAGE_BEGIN
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00c.ftx,	CUT_P02_008_a,	0,0
+
+)	//汎用枠2
+
+
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveOBJ00.mbs,	GUI/ArchiveOBJ00.ftx,	OBJ_00,	0,0
+
+)	//オブジェクト「種」
+
+
+
+@FRAME(0)	//１つ目のコリジョンに表示する文章▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽▽
+
+//□□□□□□□□□□□□□□□□□
+
+//
+
+//栄養価の高い実をつける植物ほど、
+
+//育成に要するフォゾンは多くなる
+
+//
+
+//入門者には、少ないフォゾンで
+
+//２つの実がなる@b@c(158,78,43)マルベリー@/c@/bや、
+
+//実に残った種からもう一株育てられる
+
+//@b@c(158,78,43)マグル@/c@/bの栽培をすすめる
+
+//
+
+//果樹栽培に慣れてきたら、体力増進に
+
+//優れる@b@c(158,78,43)グレイプ@/c@/bや、お菓子の材料と
+
+//して人気の@b@c(158,78,43)ナップル@/c@/bを育てるのもよい
+
+//　だろう
+
+@TEXT(
+
+
+
+The more nutritious the fruit, the
+
+more Phozons it will require.
+
+
+
+Recommended for beginners:
+
+The @b@c(158,78,43)mulberry@/c@/b bears two fruits
+
+using minimal Phozons, while the
+
+@b@c(158,78,43)muggle@/c@/b bears fruit and a seed.
+
+
+
+Once you are used to the process,
+
+you can try @b@c(158,78,43)grapes@/c@/b, which increase
+
+health, and @b@c(158,78,43)napples@/c@/b, which are
+
+quite a popular ingredient for
+
+snacks.
+
+
+
+)
+
+
+
+	//------------------------------------------------------------------------
+
+//△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
+

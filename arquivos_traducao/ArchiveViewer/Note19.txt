@@ -1,0 +1,402 @@
+// タイトルの指定
+
+//@TITLE( 「バレンタインの興亡」 )
+
+@TITLE( "Valentine's Rise & Fall" )
+
+
+
+// MONEのワク（開く・めくるなどのアニメに対応するもの）
+
+@MONE_TEMPLATE( 
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	BOOK_01		//本
+
+//	BOOK_02		//本＋注釈
+
+//	PAPER_01	//紙
+
+//	PAPER_02	//紙束
+
+//	PAPER_03	//便せん
+
+//	PAPER_04	//便せん束
+
+//	VELLUM_01	//羊皮紙
+
+//	VELLUM_02	//羊皮紙束
+
+	)
+
+
+
+@FONT_SIZE_X(26)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_SIZE_Y(38)  // 文字の大きさ（３２ドットでフォント等倍）
+
+@FONT_PITCH_X(1)  // 文字の間隔
+
+@FONT_PITCH_Y(3) // 文字の間隔
+
+@FONT_NUM_X(14)   // 並ぶ文字の数
+
+@FONT_NUM_Y(13)   // 並ぶ文字の数
+
+
+
+// ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+
+
+
+//  @c( r, g, b ) 〜 @/c         ： 文字の色を変化させる 0-255指定
+
+//
+
+//  @s( scale ) 〜 @/s 
+
+//  @s( scaleX, scaleY ) 〜 @/s  ： 文字のスケールを拡大（小数指定）
+
+//
+
+//  @i 〜 @/i                    ： 文字を傾ける（イタリック体…？斜体というより回転してる）
+
+//  @i( angle )  〜 @/i             2015-04-09 ohnishi 斜体になるようになおしました
+
+//                                             angleに角度を指定可能（デフォルトは１５度）
+
+//
+
+//  @b 〜@/b                     : ボールド（強調表示）
+
+//  @b( dot ) 〜 @/b             : dotで何ドットずらして重ねるか指定可能にした
+
+
+
+//  @x( n ) 〜 @/x               : 文字のＸ間隔を指定
+
+//  @y( n ) 〜 @/y               : 文字のＹ間隔を指定
+
+
+
+// ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+
+
+
+//1P================================================================================
+
+// ページ開始指定 PAGE_BEGINのたびに勝手に１、２とページが加算されます
+
+// 見開きでも「１ページ」なので注意
+
+@PAGE_BEGIN
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+)	//上下枠
+
+
+
+
+
+
+
+//----------------------------左ページ
+
+// MONEの中の何番目のコリジョンに書くかの指定 
+
+// 左ページ：０ / 右ページ：１ / 注釈：２ など
+
+@FRAME(0)
+
+// 文章本体
+
+//２３４５６７８９０１２３４５
+
+//
+
+//文献では、@b@c(158,78,43)バレンタイン@/c@/bの始祖は
+
+//@b@c(158,78,43)エリオン@/c@/bのはるか彼方から
+
+//空飛ぶ船でやってきた異邦人だと
+
+//されている
+
+//
+
+//彼らは大陸西部に国を興すと、
+
+//他国を優にしのぐ魔法技術により
+
+//瞬く間に勢力を拡大し、
+
+//世界にその名を轟かす大国と
+
+//なったのだ
+
+//
+
+//
+
+@TEXT(
+
+@s(0.93,0.95)Records indicate that the original
+
+@b@c(158,78,43)Valentinians@/c@/b came on a flying
+
+ship, having left a land far from
+
+@b@c(158,78,43)Erion@/c@/b.
+
+
+
+They founded a country on the
+
+western side of the continent, and
+
+with their superior magic
+
+technology, they solidified their
+
+nation's position as a significant
+
+world power.@/s
+
+)
+
+
+
+//----------------------------右ページ
+
+@FRAME(1)
+
+// 文章本体
+
+//２３４５６７８９０１２３４５
+
+//
+
+//魔法王が自ら築きあげた魔法文明
+
+//を支えたのは、
+
+//バレンタインの魔法技術の粋を
+
+//集め作られた@b@c(158,78,43)結晶炉コルドロン@/c@/bだ
+
+//
+
+//@b@c(158,78,43)魔素@/c@/bを結晶化し、高密度の魔力を
+
+//生み出す結晶炉は、
+
+//まさに繁栄の源であり、
+
+//バレンタインの象徴でもあった
+
+//
+
+//
+
+@TEXT(
+
+@s(0.92,0.95)The @b@c(158,78,43)Crystallization Cauldron@/c@/b,
+
+engineered from the most potent
+
+of Valentine's magic, was the crux
+
+of the king's glorious nation.
+
+
+
+By way of crystallizing raw
+
+@b@c(158,78,43)Phozons@/c@/b, it produced dense magic.
+
+It was the source of the nation's
+
+wealth, and iconic of Valentine
+
+at the height of their power.@/s
+
+)
+
+
+
+
+
+//2P ================================================================================
+
+@PAGE_BEGIN
+
+@MONE_OVERLAP(
+
+	CUT, // 制御用のラベル名をつけます
+
+	GUI/ArchiveFrame00.mbs,	GUI/ArchiveFrame00d.ftx,	CUT_B01_112,	0,0
+
+)	//上下枠
+
+
+
+
+
+
+
+//----------------------------左ページ
+
+@FRAME(0)
+
+//２３４５６７８９０１２３４５
+
+//
+
+//そんな栄華の絶頂にあった王国に
+
+//突如終わりが訪れる
+
+//
+
+//当時の敵国@b@c(158,78,43)ラグナネイブル軍@/c@/bの
+
+//捨て身の侵攻が王都に迫った時、
+
+//不意に烈しい閃光が王都を覆い
+
+//猛烈な嵐がすべてを吹き飛ばした
+
+//
+
+//あとには廃墟と成り果てた王都が
+
+//残るのみであった
+
+//
+
+@TEXT(
+
+@s(0.96,0.96)At the peak of the kingdom's
+
+prosperity, the end came.
+
+@b@c(158,78,43)Ragnanival@/c@/b, the country with
+
+whom Valentine was at war,
+
+launched a desperate attack on
+
+the capital. A bright light
+
+suddenly engulfed the city, and
+
+a terrible storm swept across
+
+the land.
+
+
+
+Only rubble remained.@/s
+
+)
+
+
+
+
+
+
+
+
+
+
+
+//----------------------------右ページ
+
+@FRAME(1)
+
+//２３４５６７８９０１２３４５
+
+//
+
+//
+
+//
+
+//@b@c(158,78,43)バレンタイン@/c@/bの崩壊の真相は
+
+//いまだ明らかになっていないが、
+
+//一部の研究家は、唯一焼け残った
+
+//@b@c(158,78,43)結晶炉@/c@/bの暴走が、事故の原因では
+
+//ないかと指摘している
+
+//
+
+//この謎は魅力的で、多くの考古
+
+//学者が関心を寄せている
+
+//
+
+@TEXT(
+
+
+
+
+
+@s(0.92,0.95)To this day, none know the true
+
+cause of Valentine's fall. The
+
+truth may lie somewhere within
+
+the last remaining artifact of
+
+their genius—the roiling
+
+Cauldron.
+
+
+
+Historians from far and wide have
+
+long sought the answers behind
+
+this mystery.@/s
+
+)
+
+@MONE(
+
+	ArchiveFrame00.mbs,
+
+	ArchiveFrame00d.ftx, 
+
+	LINE_002A,
+
+	0,44
+
+)	//間仕切り
+
+
+
+
+
+
+
+
+
+
+
+
+
