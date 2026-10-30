@@ -5,7 +5,7 @@
 <p align="center">
   <img alt="Idioma" src="https://img.shields.io/badge/idioma-Portugu%C3%AAs%20(BR)-009c3b">
   <img alt="Plataforma" src="https://img.shields.io/badge/plataforma-PC%20%2B%20Steam%20Deck-1b2838">
-  <img alt="Versão" src="https://img.shields.io/badge/vers%C3%A3o-1.0-6a0dad">
+  <img alt="Versão" src="https://img.shields.io/badge/vers%C3%A3o-1.1-6a0dad">
   <img alt="Uso" src="https://img.shields.io/badge/uso-n%C3%A3o--comercial-important">
 </p>
 
@@ -130,3 +130,5 @@ Esta é uma **tradução de fã**, feita **sem fins lucrativos** e **sem qualque
 **Tradução e ferramentas:** **Wender_sky** *(Steam)*
 
 Recomp para PC: [saulob/odin-sphere-leifthrasir-pc](https://github.com/saulob/odin-sphere-leifthrasir-pc).
+
+Com a tradução instalada, o crédito aparece no sótão da Alice, acima de "Pegar o livro".
